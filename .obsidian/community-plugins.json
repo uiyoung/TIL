@@ -13,5 +13,6 @@
   "obsidian-vimrc-support",
   "obsidian-git",
   "obsidian-icon-folder",
-  "obsidian-tagfolder"
+  "obsidian-tagfolder",
+  "obsidian-linter"
 ]

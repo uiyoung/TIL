@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "React/3rd-paraty library/notistack.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -175,8 +175,9 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "2d2da3f7c37dc80d",
+  "active": "fca7319dd4612555",
   "lastOpenFiles": [
+    "tools/vim/jump to definition.md",
     "React/3rd-paraty library/notistack.md",
     "daily/2023-09-06.md",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
@@ -189,7 +190,6 @@
     "NestJS",
     "README.md",
     "tools/vim/Selection.md",
-    "tools/vim/jump to definition.md",
     "daily",
     "attachments/Pasted image 20230905095336.png",
     "attachments/Pasted image 20230905095352.png",

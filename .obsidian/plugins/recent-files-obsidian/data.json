@@ -5,6 +5,10 @@
       "path": "React/3rd-paraty library/notistack.md"
     },
     {
+      "basename": "jump to definition",
+      "path": "tools/vim/jump to definition.md"
+    },
+    {
       "basename": "2023-09-06",
       "path": "daily/2023-09-06.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Selection",
       "path": "tools/vim/Selection.md"
-    },
-    {
-      "basename": "jump to definition",
-      "path": "tools/vim/jump to definition.md"
     },
     {
       "basename": "Pasted image 20230905095336",
