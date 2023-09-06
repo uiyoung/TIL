@@ -7,8 +7,10 @@ $ npm i notistack
 ```
 
 **Usage**
-```js
-
-```
+1.  main.jsx 파일에서 `SnackbarProvider를 import하고 
+	```js
+	
+	```
+ 2. 
 
 
