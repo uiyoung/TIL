@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-09-06.md",
+                "file": "tools/vscode/shortcuts, snippets.md",
                 "mode": "preview",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-09-06.md",
+                "file": "tools/vscode/shortcuts, snippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-09-06.md",
+                "file": "tools/vscode/shortcuts, snippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-09-06.md"
+                "file": "tools/vscode/shortcuts, snippets.md"
               }
             }
           },
@@ -166,13 +166,16 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "df1b7c7f8fbfffdf",
+  "active": "2d2da3f7c37dc80d",
   "lastOpenFiles": [
-    "daily/2023-09-06.md",
+    "NestJS",
+    "JS",
+    "NestJS",
     "README.md",
-    "daily",
     "tools/vim/Selection.md",
     "tools/vim/jump to definition.md",
+    "daily/2023-09-06.md",
+    "daily",
     "tools/vscode/shortcuts, snippets.md",
     "attachments/Pasted image 20230905095336.png",
     "attachments/Pasted image 20230905095352.png",
@@ -183,7 +186,6 @@
     "tools/vim",
     "tools",
     "NestJs",
-    "javascript",
     "2023-09-06.md"
   ]
 }

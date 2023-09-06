@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCat",
+      "🪆",
+      "IbCalendar",
       "SiJavascript",
-      "SiNestjs",
-      "FabJs",
-      "FarCalendar",
-      "SiVisualstudiocode"
+      "SiNestjs"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,10 +31,9 @@
     "iconName": "RiAttachment2",
     "inheritanceIcon": "RiAttachment2"
   },
-  "daily": "FarCalendar",
   "JS": {
-    "iconName": "SiJavascript",
+    "iconName": null,
     "inheritanceIcon": "SiJavascript"
   },
-  "NestJS": "SiNestjs"
+  "daily": "IbCalendar"
 }

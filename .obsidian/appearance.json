@@ -3,5 +3,8 @@
   "cssTheme": "AnuPpuccin",
   "monospaceFontFamily": "JetBrains Mono",
   "translucency": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ]
 }
