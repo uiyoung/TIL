@@ -3,12 +3,12 @@
   "ribbonBarOrder": [],
   "fileExplorerOrder": {
     "/": [
-      "daily",
       "attachments",
+      "daily",
       "JS",
-      "NestJS",
       "tools",
-      "README.md"
+      "README.md",
+      "React"
     ]
   },
   "actionBarOrder": {},

@@ -28,12 +28,6 @@ $ npm i notistack
 	```tsx
 	import { SnackbarProvider, useSnackbar } from 'notistack'
 	
-	// wrap your app
-	<SnackbarProvider>
-	  <App />
-	  <MyButton />
-	</SnackbarProvider>
-	
 	const MyButton = () => {
 	  const { enqueueSnackbar, closeSnackbar } = useSnackbar()
 	  return (
@@ -74,7 +68,7 @@ closeSnackbar(key)
 _e.g._
 
 main.jsx
-```jsx
+```jsx:-main.jsx
 // ...
 import { SnackbarProvider } from 'notistack';
 
