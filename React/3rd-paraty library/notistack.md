@@ -77,8 +77,58 @@ main.jsx
 ```js
 ```
 
+/pages/CreateBooks.jsx
+```jsx
 
-```js
+function CreateBooks() {
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
+  const [publishYear, setPublishYear] = useState('');
+  const [loading, setLoading] = useState(false);
+
+  const navigate = useNavigate();
+  const { enqueueSnackbar } = useSnackbar();
+
+  function handleSaveBook() {
+    setLoading(true);
+
+    const data = {
+      title,
+      author,
+      publishYear,
+    };
+
+    fetch('http://localhost:5000/books', {
+      headers: { 'Content-Type': 'application/json' },
+      method: 'POST',
+      body: JSON.stringify(data),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setLoading(false);
+        enqueueSnackbar('Book created successfully', { variant: 'success' });
+        console.log(data);
+        navigate('/');
+      })
+      .catch((err) => {
+         enqueueSnackbar('Error creating book', { variant: 'error' });       setLoading(false);
+        console.error(err);
+        alert('Error creating book');
+      });
+  }
+
+  return (
+   // ...
+  );
+}
+
+export default CreateBooks;
+
 ```
 
-![[Pasted image 20230906163238.png]]
+성공시 메시지
+[[attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png|Open: Pasted image 20230906163238.png]]
+![[attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png]]
+실패시 메시지
+[[attachments/462e150a07e919fc0defdf40398c1a26_MD5.png|Open: Pasted image 20230906163623.png]]
+![[attachments/462e150a07e919fc0defdf40398c1a26_MD5.png]]
