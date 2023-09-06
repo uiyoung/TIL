@@ -68,7 +68,9 @@ closeSnackbar(key)
 _e.g._
 
 main.jsx
-```jsx TI:main.jsx
+- Use `TI:"your title"` to add title
+- Use `HL:"numbers"` to add highlight, such as `HL:"1,2,3"`, `HL:"1-3"`, separate by `,`
+```jsx TI:"main.jsx" HL:1-5
 // ...
 import { SnackbarProvider } from 'notistack';
 
