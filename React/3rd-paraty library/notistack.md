@@ -74,7 +74,20 @@ closeSnackbar(key)
 _e.g._
 
 main.jsx
-```js
+```jsx
+// ...
+import { SnackbarProvider } from 'notistack';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <SnackbarProvider>
+        <App />
+      </SnackbarProvider>
+    </BrowserRouter>
+  </React.StrictMode>
+);
+
 ```
 
 /pages/CreateBooks.jsx
@@ -111,7 +124,8 @@ function CreateBooks() {
         navigate('/');
       })
       .catch((err) => {
-         enqueueSnackbar('Error creating book', { variant: 'error' });       setLoading(false);
+        setLoading(false);
+        enqueueSnackbar('Error creating book', { variant: 'error' });
         console.error(err);
         alert('Error creating book');
       });
