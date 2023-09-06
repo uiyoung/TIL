@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/vscode/shortcuts, snippets.md",
-                "mode": "preview",
+                "file": "React/3rd-paraty library/notistack.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vscode/shortcuts, snippets.md",
+                "file": "React/3rd-paraty library/notistack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vscode/shortcuts, snippets.md",
+                "file": "React/3rd-paraty library/notistack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vscode/shortcuts, snippets.md"
+                "file": "React/3rd-paraty library/notistack.md"
               }
             }
           },
@@ -166,8 +166,12 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "2d2da3f7c37dc80d",
+  "active": "df1b7c7f8fbfffdf",
   "lastOpenFiles": [
+    "tools/vscode/shortcuts, snippets.md",
+    "React/3rd-paraty library/notistack.md",
+    "React/3rd-paraty library",
+    "React",
     "NestJS",
     "JS",
     "NestJS",
@@ -176,16 +180,12 @@
     "tools/vim/jump to definition.md",
     "daily/2023-09-06.md",
     "daily",
-    "tools/vscode/shortcuts, snippets.md",
     "attachments/Pasted image 20230905095336.png",
     "attachments/Pasted image 20230905095352.png",
     "attachments",
     "JS",
     "NestJS",
     "tools/vscode",
-    "tools/vim",
-    "tools",
-    "NestJs",
     "2023-09-06.md"
   ]
 }
