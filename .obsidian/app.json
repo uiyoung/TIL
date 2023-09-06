@@ -1,3 +1,15 @@
 {
-  "promptDelete": false
+  "attachmentFolderPath": "attachments",
+  "newFileLocation": "root",
+  "vimMode": true,
+  "promptDelete": false,
+  "showLineNumber": true,
+  "showInlineTitle": true,
+  "autoPairMarkdown": true,
+  "tabSize": 2,
+  "readableLineLength": true,
+  "foldIndent": false,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "foldHeading": true
 }

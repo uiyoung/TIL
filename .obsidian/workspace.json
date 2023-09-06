@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "tools/vim/Selection.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -64,12 +64,20 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "8f8a66bb8d4c8494",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 223.5
   },
   "right": {
     "id": "e1732c68bcc83232",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "tools/vim/Selection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "tools/vim/Selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +133,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "tools/vim/Selection.md"
               }
             }
+          },
+          {
+            "id": "5e89c24e5fff55a3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -138,17 +155,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "janitor:Janitor: scan vault": false
     }
   },
-  "active": "3bbe7c7f53cb1c7e",
+  "active": "5e89c24e5fff55a3",
   "lastOpenFiles": [
-    "2023-09-06.md",
-    "README.md"
+    "tools/vim/jump to definition.md",
+    "tools/vscode/shortcuts, snippets.md",
+    "attachments/Pasted image 20230905095336.png",
+    "attachments/Pasted image 20230905095352.png",
+    "README.md",
+    "attachments",
+    "JS",
+    "NestJS",
+    "tools/vim/Selection.md",
+    "tools/vscode",
+    "tools/vim",
+    "tools",
+    "NestJs",
+    "javascript",
+    "2023-09-06.md"
   ]
 }

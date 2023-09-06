@@ -31,5 +31,7 @@
     "iconName": "RiAttachment2",
     "inheritanceIcon": "RiAttachment2"
   },
-  "daily": "FarCalendar"
+  "daily": "FarCalendar",
+  "NestJS": "SiNestjs",
+  "JS": "FabJs"
 }

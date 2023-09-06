@@ -13,9 +13,9 @@
   "templates",
   "note-composer",
   "command-palette",
+  "slash-command",
   "editor-status",
   "bookmarks",
   "outline",
-  "word-count",
   "file-recovery"
 ]
