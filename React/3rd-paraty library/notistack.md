@@ -88,7 +88,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 /pages/CreateBooks.jsx
 ```jsx
-
 function CreateBooks() {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
@@ -142,9 +141,3 @@ export default CreateBooks;
 실패시 메시지
 [[attachments/462e150a07e919fc0defdf40398c1a26_MD5.png|Open: Pasted image 20230906163623.png]]
 ![[attachments/462e150a07e919fc0defdf40398c1a26_MD5.png]]
-
-```JAVA TI:"Hello!"
-public class HelloWorld{
-
-}
-```
