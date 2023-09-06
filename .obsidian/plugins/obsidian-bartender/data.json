@@ -4,14 +4,11 @@
   "fileExplorerOrder": {
     "/": [
       "daily",
-      "javascript",
-      "NestJs",
-      "tools",
       "attachments",
-      "test.md",
-      "tools.md",
-      "NestJs.md",
-      "hello obsidian.md"
+      "JS",
+      "NestJS",
+      "tools",
+      "README.md"
     ]
   },
   "actionBarOrder": {},

@@ -35,5 +35,6 @@
   "JS": {
     "iconName": "SiJavascript",
     "inheritanceIcon": "SiJavascript"
-  }
+  },
+  "NestJS": "SiNestjs"
 }
