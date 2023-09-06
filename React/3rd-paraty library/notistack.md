@@ -68,3 +68,17 @@ closeSnackbar()
 // the key returned from enqueueSnackbar
 closeSnackbar(key)
 ```
+
+
+---
+_e.g._
+
+main.jsx
+```js
+```
+
+
+```js
+```
+
+![[Pasted image 20230906163238.png]]
