@@ -70,7 +70,7 @@ _e.g._
 main.jsx
 - Use `TI:"your title"` to add title
 - Use `HL:"numbers"` to add highlight, such as `HL:"1,2,3"`, `HL:"1-3"`, separate by `,`
-```jsx TI:"main.jsx" HL:1-5
+```jsx TI:"main.jsx" HL:"1,3"
 // ...
 import { SnackbarProvider } from 'notistack';
 
@@ -142,3 +142,9 @@ export default CreateBooks;
 실패시 메시지
 [[attachments/462e150a07e919fc0defdf40398c1a26_MD5.png|Open: Pasted image 20230906163623.png]]
 ![[attachments/462e150a07e919fc0defdf40398c1a26_MD5.png]]
+
+```JAVA TI:"Hello!"
+public class HelloWorld{
+
+}
+```
