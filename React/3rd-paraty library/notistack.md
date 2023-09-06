@@ -68,7 +68,7 @@ closeSnackbar(key)
 _e.g._
 
 main.jsx
-```jsx:-main.jsx
+```jsx TI:main.jsx
 // ...
 import { SnackbarProvider } from 'notistack';
 
