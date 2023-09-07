@@ -125,9 +125,9 @@ export default () => {
   ) as Record<string, any>;
 };
 ```
-환경변수의 NODE_ENV가 'production'일 경우는 production.yaml을 읽고 그외의 경우에는 development.yaml을 읽게 한다.
+환경변수의 NODE_ENV가 `production`일 경우는 production.yaml을 읽고 그외의 경우에는 development.yaml을 읽게 한다.
 
-AppModule에서 config.ts 정보를 가져온다.
+AppModule을 수정해서 load시 config.ts 정보를 가져오도록 한다.
 ```ts
 import config from './config/config';
 …
@@ -145,7 +145,9 @@ const configService = app.get(ConfigService);
 const port = configService.get<string>('server.port');
 ```
 
-yaml은 컴파일시에 dist 폴더로 copy가 되지 않으므로 파일을 찾을 수 없다.
+이렇게 실행을 하면 에러가 나는데 yaml 파일을 읽을 수 없어서이다.
+![[Pasted image 20230907183737.png]]
+yaml은 ts파일이 아니기때문에 컴파일시에 dist 폴더로 copy가 되지 않으므로 파일을 찾을 수 없는 것이다.
 
 package.json에서 script를 이용해 yaml을 copy하기 위해 다음 패키지를 설치한다.
 ```shell
@@ -173,7 +175,6 @@ package.json을 다음과 같이 파일 복사 스크립트를 추가한다.
 ```
 
 프로젝트 실행
-
 ```shell
 npm run start:dev
 ```
