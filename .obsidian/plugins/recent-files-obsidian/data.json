@@ -1,24 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-09-07",
-      "path": "daily/2023-09-07.md"
+      "basename": "test",
+      "path": "test/test.md"
     },
     {
-      "basename": "NestJS",
-      "path": "NestJS/NestJS.md"
+      "basename": "test",
+      "path": "test.md"
     },
     {
-      "basename": "configuration",
-      "path": "NestJS/configuration.md"
+      "basename": "daily",
+      "path": "daily/daily.md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
+    },
+    {
+      "basename": "tools",
+      "path": "tools/tools.md"
     },
     {
       "basename": "React",
       "path": "React/React.md"
     },
     {
-      "basename": "test",
-      "path": "test/test.md"
+      "basename": "NestJS",
+      "path": "NestJS/NestJS.md"
+    },
+    {
+      "basename": "Selection",
+      "path": "tools/vim/Selection.md"
+    },
+    {
+      "basename": "2023-09-07",
+      "path": "daily/2023-09-07.md"
+    },
+    {
+      "basename": "configuration",
+      "path": "NestJS/configuration.md"
     },
     {
       "basename": "notistack",
@@ -41,32 +61,8 @@
       "path": "Dashboard.md"
     },
     {
-      "basename": "tools",
-      "path": "tools/tools.md"
-    },
-    {
-      "basename": "JS",
-      "path": "JS/JS.md"
-    },
-    {
-      "basename": "daily",
-      "path": "daily/daily.md"
-    },
-    {
-      "basename": "vim",
-      "path": "tools/vim/vim.md"
-    },
-    {
-      "basename": "Selection",
-      "path": "tools/vim/Selection.md"
-    },
-    {
       "basename": "_index",
       "path": "NestJS/_index.md"
-    },
-    {
-      "basename": "3rd-paraty library",
-      "path": "React/3rd-paraty library/3rd-paraty library.md"
     },
     {
       "basename": "shortcuts, snippets",
@@ -83,10 +79,6 @@
     {
       "basename": "hii",
       "path": "hii.md"
-    },
-    {
-      "basename": "test",
-      "path": "test.md"
     },
     {
       "basename": "hou!",

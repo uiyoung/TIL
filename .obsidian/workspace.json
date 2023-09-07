@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-09-07.md",
+                "file": "test/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-09-07.md",
+                "file": "test/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-09-07.md",
+                "file": "test/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-09-07.md"
+                "file": "test/test.md"
               }
             }
           },
@@ -177,31 +176,31 @@
   },
   "active": "8f7f43ea201240ad",
   "lastOpenFiles": [
-    "NestJS/NestJS.md",
-    "NestJS/configuration.md",
-    "React/React.md",
+    "test.md",
     "test/test.md",
+    "daily/daily.md",
+    "JS/JS.md",
+    "tools/tools.md",
+    "React/React.md",
+    "tools/vim/vim.md",
+    "React/3rd-paraty library/3rd-paraty library.md",
+    "NestJS/NestJS.md",
+    "tools/vim/Selection.md",
+    "daily/2023-09-07.md",
+    "NestJS/configuration.md",
     "React/3rd-paraty library/notistack.md",
     "tools/vim/jump to definition.md",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
     "Dashboard.md",
-    "tools/tools.md",
-    "JS/JS.md",
-    "daily/daily.md",
-    "tools/vim/vim.md",
-    "tools/vim/Selection.md",
     "NestJS/_index.md",
-    "React/3rd-paraty library/3rd-paraty library.md",
     "tools/vscode/shortcuts, snippets.md",
     "attachments/attachments.md",
     "README.md",
     "hii.md",
     "test",
-    "test.md",
     "NestJS/hou!.md",
     "ho.md",
-    "daily/2023-09-07.md",
     "NestJS",
     "daily/2023-09-06.md",
     "attachments/Pasted image 20230905095352.png",
