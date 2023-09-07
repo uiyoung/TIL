@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a16b8504762170f4",
+        "id": "1a7542372e08d3dd",
         "type": "tabs",
         "children": [
           {
-            "id": "c9c4a63d717e2e2f",
+            "id": "8f7f43ea201240ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/_index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "440e3c4ade4a2e32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NestJS/_index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f165145b7de815c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NestJS/_index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56bc7650df1b2d71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
+                "file": "daily/2023-09-07.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,17 +80,9 @@
               "type": "tagfolder-view",
               "state": {}
             }
-          },
-          {
-            "id": "8036200f7f33358b",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -147,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/_index.md",
+                "file": "daily/2023-09-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/_index.md",
+                "file": "daily/2023-09-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/_index.md"
+                "file": "daily/2023-09-07.md"
               }
             }
           },
@@ -217,30 +172,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
-      "janitor:Janitor: scan vault": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "janitor:Janitor: scan vault": false
     }
   },
-  "active": "f165145b7de815c0",
+  "active": "8f7f43ea201240ad",
   "lastOpenFiles": [
     "NestJS/NestJS.md",
     "NestJS/configuration.md",
-    "React/3rd-paraty library/3rd-paraty library.md",
     "React/React.md",
-    "tools/tools.md",
-    "tools/vim/jump to definition.md",
-    "tools/vscode/shortcuts, snippets.md",
-    "tools/vim/Selection.md",
     "test/test.md",
     "React/3rd-paraty library/notistack.md",
-    "attachments/attachments.md",
+    "tools/vim/jump to definition.md",
+    "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
+    "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
+    "Dashboard.md",
+    "tools/tools.md",
     "JS/JS.md",
     "daily/daily.md",
     "tools/vim/vim.md",
+    "tools/vim/Selection.md",
+    "NestJS/_index.md",
+    "React/3rd-paraty library/3rd-paraty library.md",
+    "tools/vscode/shortcuts, snippets.md",
+    "attachments/attachments.md",
     "README.md",
     "hii.md",
     "test",
-    "NestJS/_index.md",
     "test.md",
     "NestJS/hou!.md",
     "ho.md",
@@ -248,9 +205,7 @@
     "NestJS",
     "daily/2023-09-06.md",
     "attachments/Pasted image 20230905095352.png",
-    "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "Context/spacesLastSync.log",
-    "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
     "attachments/Pasted image 20230905095336.png",
     "Context",
     "React/3rd-paraty library",
