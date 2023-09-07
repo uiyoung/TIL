@@ -1,10 +1,11 @@
 {
   "pluginList": [
+    "kometenstaub/obsidian-vim-reading-view-navigation",
     "nothingislost/obsidian-bartender"
   ],
   "pluginSubListFrozenVersion": [],
   "themesList": [],
-  "updateAtStartup": false,
+  "updateAtStartup": true,
   "updateThemesAtStartup": false,
   "ribbonIconEnabled": false,
   "loggingEnabled": false,

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
-                "mode": "source",
+                "file": "tools/vim/Selection.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
+                "file": "tools/vim/Selection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
+                "file": "tools/vim/Selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md"
+                "file": "tools/vim/Selection.md"
               }
             }
           },
@@ -184,14 +184,14 @@
   },
   "active": "69405a17dd68f84b",
   "lastOpenFiles": [
+    "daily/2023-09-07.md",
+    "React/3rd-paraty library/notistack.md",
+    "Context/spacesLastSync.log",
     "tools/vim/jump to definition.md",
     "tools/vim/Selection.md",
     "attachments/Pasted image 20230905095336.png",
-    "daily/2023-09-07.md",
     "JS/JS.md",
     "daily/daily.md",
-    "React/3rd-paraty library/notistack.md",
-    "Context/spacesLastSync.log",
     "Context",
     "daily/2023-09-06.md",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Selection",
+      "path": "tools/vim/Selection.md"
+    },
+    {
+      "basename": "2023-09-07",
+      "path": "daily/2023-09-07.md"
+    },
+    {
       "basename": "notistack",
       "path": "React/3rd-paraty library/notistack.md"
     },
@@ -9,16 +17,8 @@
       "path": "tools/vim/jump to definition.md"
     },
     {
-      "basename": "Selection",
-      "path": "tools/vim/Selection.md"
-    },
-    {
       "basename": "Pasted image 20230905095336",
       "path": "attachments/Pasted image 20230905095336.png"
-    },
-    {
-      "basename": "2023-09-07",
-      "path": "daily/2023-09-07.md"
     },
     {
       "basename": "2023-09-06",
