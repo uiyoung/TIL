@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/configuration.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/configuration.md"
+                "file": "README.md"
               }
             }
           },
@@ -176,31 +176,32 @@
   },
   "active": "34808f393d66f9cd",
   "lastOpenFiles": [
-    "tools/vim/surround.md",
+    "NestJS/configuration.md",
+    "tools/vscode/shortcuts, snippets.md",
     "tools/vim/_vim.md",
+    "tools/vim/jump to definition.md",
+    "React/3rd-paraty library/_3rd-paraty library.md",
+    "React/3rd-paraty library/notistack.md",
+    "test/_test.md",
+    "tools/_tools.md",
+    "NestJS/_NestJS.md",
+    "daily/_daily.md",
+    "JS/_JS.md",
+    "tools/vim/surround.md",
     "tools/vim/movement.md",
     "attachments/Pasted image 20230907161323.png",
     "attachments/Pasted image 20230907161207.png",
-    "tools/vim/jump to definition.md",
     "tools/vim/Selection.md",
-    "NestJS/configuration.md",
-    "NestJS/_NestJS.md",
-    "test/_test.md",
-    "daily/_daily.md",
-    "JS/_JS.md",
     "attachments/_attachments.md",
     "tools/tools.md",
     "React/_React.md",
     "tools/vscode/_vscode.md",
-    "React/3rd-paraty library/_3rd-paraty library.md",
     "Dashboard.md",
     "NestJS/_index.md",
     "test.md",
     "daily/2023-09-07.md",
-    "React/3rd-paraty library/notistack.md",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
-    "tools/vscode/shortcuts, snippets.md",
     "README.md",
     "hii.md",
     "test",

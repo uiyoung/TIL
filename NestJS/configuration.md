@@ -1,5 +1,7 @@
+https://docs.nestjs.com/techniques/configuration
+
 Nestjs 프로젝트 실행시에 미리 정의된 환경설정을 읽어와서 실행한다.
-이때 <mark style="background: #FFF3A3A6;">환경변수</mark>를 통해서 가져오는 방법과 <mark style="background: #ABF7F7A6;">설정파일</mark>을 통해 가져오는 방법이 있다.
+이때 <mark style="background: #FFB8EBA6;">환경변수</mark>를 통해서 가져오는 방법과 <mark style="background: #ABF7F7A6;">설정파일</mark>을 통해 가져오는 방법이 있다.
 
 ##### 환경변수
 - 보안상 중요한 내용을 코드에 노출하지 않기 위해 사용
@@ -13,4 +15,11 @@ Nestjs 프로젝트 실행시에 미리 정의된 환경설정을 읽어와서 �
 
 ## NestJS Config
 Nestjs에서는 설정 파일을 쉽게 관리할 수 있도록 @nestjs/config 패키지를 제공한다.
-`@nestjs/config` 패키지는 dotenv를 포함하고 있으므로 따로 설치하지 않아도 됩니다.
+`@nestjs/config` 패키지는 dotenv를 포함하고 있으므로 따로 설치하지 않아도 된다.
+```shell
+$ npm i @nestjs/config
+```
+
+
+
+
