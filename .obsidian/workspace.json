@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/vim/_vim.md",
+                "file": "tools/vim/movement.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vim/_vim.md",
+                "file": "tools/vim/movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vim/_vim.md",
+                "file": "tools/vim/movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vim/_vim.md"
+                "file": "tools/vim/movement.md"
               }
             }
           },
@@ -176,9 +176,12 @@
   },
   "active": "34808f393d66f9cd",
   "lastOpenFiles": [
+    "attachments/Pasted image 20230907161323.png",
+    "attachments/Pasted image 20230907161207.png",
+    "tools/vim/movement.md",
+    "tools/vim/_vim.md",
     "tools/vim/jump to definition.md",
     "tools/vim/surround.md",
-    "tools/vim/_vim.md",
     "tools/vim/Selection.md",
     "NestJS/configuration.md",
     "NestJS/_NestJS.md",
@@ -204,7 +207,6 @@
     "NestJS/hou!.md",
     "ho.md",
     "NestJS",
-    "daily/2023-09-06.md",
     "attachments/Pasted image 20230905095352.png",
     "Context/spacesLastSync.log",
     "attachments/Pasted image 20230905095336.png",
@@ -214,7 +216,6 @@
     "NestJS",
     "JS",
     "NestJS",
-    "daily",
-    "2023-09-06.md"
+    "daily"
   ]
 }
