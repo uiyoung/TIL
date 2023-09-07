@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7e217cdc1f10175",
+        "id": "a38fc55eee2df043",
         "type": "tabs",
         "children": [
           {
-            "id": "fca7319dd4612555",
+            "id": "69405a17dd68f84b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-09-07.md",
+                "file": "tools/vim/Selection.md",
                 "mode": "source",
                 "source": true
               }
@@ -89,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-09-07.md",
+                "file": "tools/vim/Selection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-09-07.md",
+                "file": "tools/vim/Selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-09-07.md"
+                "file": "tools/vim/Selection.md"
               }
             }
           },
@@ -183,8 +182,10 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "fca7319dd4612555",
+  "active": "69405a17dd68f84b",
   "lastOpenFiles": [
+    "attachments/Pasted image 20230905095336.png",
+    "tools/vim/Selection.md",
     "daily/2023-09-07.md",
     "JS/JS.md",
     "daily/daily.md",
@@ -202,9 +203,7 @@
     "JS",
     "NestJS",
     "README.md",
-    "tools/vim/Selection.md",
     "daily",
-    "attachments/Pasted image 20230905095336.png",
     "attachments/Pasted image 20230905095352.png",
     "attachments",
     "JS",
