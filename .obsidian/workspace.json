@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "beccda307363deb6",
+        "id": "a16b8504762170f4",
         "type": "tabs",
         "children": [
           {
-            "id": "623515526f65e422",
+            "id": "c9c4a63d717e2e2f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png"
+                "file": "daily/2023-09-07.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -80,7 +82,7 @@
             }
           },
           {
-            "id": "d2ebe860d21e3b67",
+            "id": "da2032a0443daacb",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
+                "file": "daily/2023-09-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
+                "file": "daily/2023-09-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png"
+                "file": "daily/2023-09-07.md"
               }
             }
           },
@@ -181,20 +183,21 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "2d2da3f7c37dc80d",
+  "active": "c9c4a63d717e2e2f",
   "lastOpenFiles": [
-    "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
-    "tools/vim/Selection.md",
+    "daily/2023-09-06.md",
     "daily/2023-09-07.md",
-    "React/3rd-paraty library/notistack.md",
+    "attachments/Pasted image 20230905095352.png",
+    "tools/vim/Selection.md",
+    "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "Context/spacesLastSync.log",
+    "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
+    "React/3rd-paraty library/notistack.md",
     "tools/vim/jump to definition.md",
     "attachments/Pasted image 20230905095336.png",
     "JS/JS.md",
     "daily/daily.md",
     "Context",
-    "daily/2023-09-06.md",
-    "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "tools/vscode/shortcuts, snippets.md",
     "React/3rd-paraty library",
     "React",
@@ -203,7 +206,6 @@
     "NestJS",
     "README.md",
     "daily",
-    "attachments/Pasted image 20230905095352.png",
     "attachments",
     "JS",
     "2023-09-06.md"

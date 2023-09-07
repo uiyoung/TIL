@@ -11,7 +11,7 @@
   "inlineStylerColors": false,
   "editorFlow": true,
   "internalLinkClickFlow": true,
-  "contextEnabled": true,
+  "contextEnabled": false,
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
