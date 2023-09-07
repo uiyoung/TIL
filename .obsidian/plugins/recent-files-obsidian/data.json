@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "surround",
-      "path": "tools/vim/surround.md"
-    },
-    {
       "basename": "_vim",
       "path": "tools/vim/_vim.md"
     },
     {
-      "basename": "Selection",
-      "path": "tools/vim/Selection.md"
-    },
-    {
       "basename": "jump to definition",
       "path": "tools/vim/jump to definition.md"
+    },
+    {
+      "basename": "surround",
+      "path": "tools/vim/surround.md"
+    },
+    {
+      "basename": "Selection",
+      "path": "tools/vim/Selection.md"
     },
     {
       "basename": "configuration",
