@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "attachments",
-  "newFileLocation": "root",
+  "newFileLocation": "current",
   "vimMode": true,
   "promptDelete": false,
   "showLineNumber": true,
@@ -11,5 +11,6 @@
   "foldIndent": false,
   "defaultViewMode": "source",
   "livePreview": true,
-  "foldHeading": true
+  "foldHeading": true,
+  "alwaysUpdateLinks": true
 }
