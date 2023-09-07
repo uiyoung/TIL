@@ -92,7 +92,6 @@ constructor(private configService: ConfigService);
 // …
 configService.get('…');
 ```
-
 #### Custom Configuration - 개발 / 운영 설정 파일 분리
 yaml 파일 처리를 위해 js-yaml 패키지를 설치
 ```shell
@@ -117,9 +116,8 @@ server:
 config/config.ts 파일을 다음과 같이 만든다.
 
 - 환경변수의 NODE_ENV가 'production'일 경우는 production.yaml을 읽고
-- 그외의 경우는 development.yaml을 읽게 합니다.
-
-- src/config/config.ts
+- 그외의 경우는 development.yaml을 읽게 한다.
+`src/config/config.ts`
 ```ts
 import { readFileSync } from 'fs';
 import * as yaml from 'js-yaml';
@@ -139,7 +137,7 @@ export default () => {
 
 AppModule에서 config.ts 정보를 가져옵니다.
 
-```
+```ts
 import config from './config/config';
 …
 @Module({
@@ -152,7 +150,7 @@ import config from './config/config';
 
 main.ts에서 config를 이용해 포트를 읽어오도록 변경합니다.
 
-```
+```ts
 const configService = app.get(ConfigService);
 const port = configService.get<string>('server.port');
 ```
@@ -161,16 +159,14 @@ yaml은 컴파일시에 dist 폴더로 copy가 되지 않으므로 파일을 찾
 
 package.json에서 script를 이용해 yaml을 copy하기 위해 다음 패키지를 설치합니다.
 
-```
+```shell
 npm i cpx
 ```
 
 package.json을 다음과 같이 파일 복사 스크립트를 추가합니다.
 
 - scripts에 "copy-files"를 아래와 같이 추가합니다.
-
 - "copy-files": "cpx \"src/config/*.yaml\" dist/config/",
-
 - start 및 build 스크립트에 "npm run copy-files" 를 추가합니다.
 
 ```

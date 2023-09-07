@@ -3,7 +3,7 @@
   "newFileLocation": "current",
   "vimMode": true,
   "promptDelete": false,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "showInlineTitle": true,
   "autoPairMarkdown": true,
   "tabSize": 2,
