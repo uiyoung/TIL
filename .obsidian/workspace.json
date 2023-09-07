@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "NestJS/NestJS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:MOCs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,8 +117,17 @@
               "type": "tagfolder-view",
               "state": {}
             }
+          },
+          {
+            "id": "8036200f7f33358b",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "NestJS/NestJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "NestJS/NestJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/configuration.md"
+                "file": "NestJS/NestJS.md"
               }
             }
           },
@@ -208,13 +217,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
-      "janitor:Janitor: scan vault": false
+      "janitor:Janitor: scan vault": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "2d2da3f7c37dc80d",
+  "active": "3550d4c108711c8a",
   "lastOpenFiles": [
-    "NestJS/_index.md",
+    "React/React.md",
+    "test/test.md",
+    "test",
+    "tools/tools.md",
+    "NestJS/NestJS.md",
     "NestJS/configuration.md",
+    "NestJS/_index.md",
     "test.md",
     "NestJS/hou!.md",
     "hii.md",
@@ -241,7 +256,6 @@
     "NestJS",
     "README.md",
     "daily",
-    "attachments",
     "2023-09-06.md"
   ]
 }

@@ -15,5 +15,7 @@
   "obsidian-icon-folder",
   "obsidian-tagfolder",
   "obsidian-linter",
-  "vim-reading-view-navigation"
+  "vim-reading-view-navigation",
+  "obsidian-folder-index",
+  "file-tree-alternative"
 ]
