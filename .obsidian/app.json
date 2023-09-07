@@ -12,5 +12,6 @@
   "defaultViewMode": "source",
   "livePreview": true,
   "foldHeading": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": false
 }
