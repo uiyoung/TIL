@@ -1,32 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "test",
-      "path": "test/test.md"
-    },
-    {
-      "basename": "test",
-      "path": "test.md"
-    },
-    {
-      "basename": "daily",
-      "path": "daily/daily.md"
-    },
-    {
-      "basename": "JS",
-      "path": "JS/JS.md"
-    },
-    {
       "basename": "tools",
       "path": "tools/tools.md"
+    },
+    {
+      "basename": "test",
+      "path": "test/test.md"
     },
     {
       "basename": "React",
       "path": "React/React.md"
     },
     {
+      "basename": "daily",
+      "path": "daily/daily.md"
+    },
+    {
+      "basename": "vscode",
+      "path": "tools/vscode/vscode.md"
+    },
+    {
+      "basename": "vim",
+      "path": "tools/vim/vim.md"
+    },
+    {
+      "basename": "3rd-paraty library",
+      "path": "React/3rd-paraty library/3rd-paraty library.md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
+    },
+    {
+      "basename": "attachments",
+      "path": "attachments/attachments.md"
+    },
+    {
       "basename": "NestJS",
       "path": "NestJS/NestJS.md"
+    },
+    {
+      "basename": "jump to definition",
+      "path": "tools/vim/jump to definition.md"
     },
     {
       "basename": "Selection",
@@ -37,16 +53,8 @@
       "path": "daily/2023-09-07.md"
     },
     {
-      "basename": "configuration",
-      "path": "NestJS/configuration.md"
-    },
-    {
       "basename": "notistack",
       "path": "React/3rd-paraty library/notistack.md"
-    },
-    {
-      "basename": "jump to definition",
-      "path": "tools/vim/jump to definition.md"
     },
     {
       "basename": "462e150a07e919fc0defdf40398c1a26_MD5",
@@ -57,36 +65,12 @@
       "path": "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png"
     },
     {
-      "basename": "Dashboard",
-      "path": "Dashboard.md"
-    },
-    {
-      "basename": "_index",
-      "path": "NestJS/_index.md"
-    },
-    {
       "basename": "shortcuts, snippets",
       "path": "tools/vscode/shortcuts, snippets.md"
     },
     {
-      "basename": "attachments",
-      "path": "attachments/attachments.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "hii",
-      "path": "hii.md"
-    },
-    {
-      "basename": "hou!",
-      "path": "NestJS/hou!.md"
-    },
-    {
-      "basename": "ho",
-      "path": "ho.md"
     },
     {
       "basename": "2023-09-06",
