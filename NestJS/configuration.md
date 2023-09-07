@@ -156,23 +156,22 @@ npm i cpx
 
 package.json을 다음과 같이 파일 복사 스크립트를 추가한다.
 
-- scripts에 "copy-files"를 아래와 같이 추가합니다.
+- scripts에 "copy-files"를 아래와 같이 추가
 	- `"copy-files": "cpx \"src/config/*.yaml\" dist/config/",`
-- start 및 build 스크립트에 "npm run copy-files" 를 추가합니다.
-
-```json
-// …
-"scripts": {
-    "copy-files": "cpx \"src/config/*.yaml\" dist/config/",
-    "prebuild": "rimraf dist",
-    "build": "npm run copy-files && nest build",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "npm run copy-files && nest start",
-    "start:dev": "npm run copy-files && nest start --watch",
-    "start:debug": "npm run copy-files && nest start --debug --watch",
-    "start:prod": "npm run copy-files && node dist/main",
-// ...
-```
+- start 및 build 스크립트에 `npm run copy-files` 를 추가
+	```json
+	// …
+	"scripts": {
+	    "copy-files": "cpx \"src/config/*.yaml\" dist/config/",
+	    "prebuild": "rimraf dist",
+	    "build": "npm run copy-files && nest build",
+	    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+	    "start": "npm run copy-files && nest start",
+	    "start:dev": "npm run copy-files && nest start --watch",
+	    "start:debug": "npm run copy-files && nest start --debug --watch",
+	    "start:prod": "npm run copy-files && node dist/main",
+	// ...
+	```
 
 프로젝트 실행
 ```shell
@@ -186,3 +185,9 @@ npm run start:dev
 ![[attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png]]
 
 이렇게 환경 설정파일을 분리해서 개발과 운영의 환경을 다르게 설정할 수 있다.
+
+---
+
+
+> [!Question] "start": "npm run copy-files && nest start", 이렇게 하면 dist폴더에 yaml 파일이 복사된후 start 를 하면서 dist 폴더가 삭제후 다시 생성됩니다 그럼 yaml 파일도 삭제가 됩니다 어떻게 해야 할까요?
+>  찾아보니 nest-cli.json 파일에 "compilerOptions": { "deleteOutDir": true } 이것때문에 계속 빌드할때마다 dist 폴더가 삭제후 다시 생성되고있었습니다
