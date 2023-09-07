@@ -8,7 +8,7 @@ Nestjs 프로젝트 실행시에 미리 정의된 환경설정을 읽어와서 �
 - 개발시에는 `.env` 파일을 이용해서 관리
 - `.env`는 `.gitignore`에 추가해서 서버에 배포되지 않게 한다
 - 서버에서는 프로파일에 export로 정의
-- AWS는 ECS task definitionㅏㅏs에서 정의
+- AWS는 ECS task definitions 에서 정의
 #### 설정파일
 - 개발/운영등의 환경에 맞는 설정을 다르게 사용하기 위해 사용
 - yaml 형식의 파일을 사용
@@ -20,7 +20,7 @@ Nestjs에서는 설정 파일을 쉽게 관리할 수 있도록 @nestjs/config �
 $ npm i @nestjs/config
 ```
 
-다음으로  AppModule에서 config를 사용할 수 있도록 ConfigModule을 import 한다.
+다음으로  AppModule에서 config를 사용할 수 있도록 `ConfigModule`을 import 한다.
 
 `src/app.module.ts`
 ```ts
@@ -37,7 +37,7 @@ import { ConfigModule } from '@nestjs/config';
 ```
 > isGlobal option은 다른 모듈에서 config를 사용할 수 있도록 global로 설정한다.
 
-#### 환경 변수 정의
+#### 환경 변수를 사용하는 방법 
 프로젝트 루트 폴더에 .env를 만들고 다음과 같이 작성한다.
 ```
 NODE_ENV=development
@@ -52,18 +52,11 @@ await app.listen(port);
 logger.log(`Application listening on port ${port}`);
 ```
 
-#### 환경변수 테스트
-서버를 실행해서 port를 읽어오는지 확인
-```
-npm run start
-```
-![[attachments/e89566701ede7739a33ad10044010e39_MD5.png]]
-
-#### ConfigService 사용하기
+#### ConfigService를 사용하는 방법
 
 이제 ConfigService를 사용하도록 main.ts 를 변경한다.
-- @nestjs/config의 ConfigService를 사용합니다.
-- configService.get('NODE_SERVER_PORT')를 사용하여 port를 읽어온다.
+- @nestjs/config의 `ConfigService`를 사용한다
+- `configService.get('NODE_SERVER_PORT')`를 사용하여 port를 읽어온다.
 
 ```ts
 import { NestFactory } from '@nestjs/core';
