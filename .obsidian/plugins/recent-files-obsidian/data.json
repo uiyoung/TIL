@@ -5,6 +5,10 @@
       "path": "NestJS/configuration.md"
     },
     {
+      "basename": "2023-09-07",
+      "path": "daily/2023-09-07.md"
+    },
+    {
       "basename": "_tools",
       "path": "tools/_tools.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "_vscode",
       "path": "tools/vscode/_vscode.md"
-    },
-    {
-      "basename": "2023-09-07",
-      "path": "daily/2023-09-07.md"
     },
     {
       "basename": "462e150a07e919fc0defdf40398c1a26_MD5",
