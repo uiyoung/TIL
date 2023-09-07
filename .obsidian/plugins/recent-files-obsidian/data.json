@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "_vim",
+      "path": "tools/vim/_vim.md"
+    },
+    {
+      "basename": "Selection",
+      "path": "tools/vim/Selection.md"
+    },
+    {
+      "basename": "jump to definition",
+      "path": "tools/vim/jump to definition.md"
+    },
+    {
       "basename": "configuration",
       "path": "NestJS/configuration.md"
     },
@@ -33,20 +45,8 @@
       "path": "tools/vscode/_vscode.md"
     },
     {
-      "basename": "_vim",
-      "path": "tools/vim/_vim.md"
-    },
-    {
       "basename": "_3rd-paraty library",
       "path": "React/3rd-paraty library/_3rd-paraty library.md"
-    },
-    {
-      "basename": "jump to definition",
-      "path": "tools/vim/jump to definition.md"
-    },
-    {
-      "basename": "Selection",
-      "path": "tools/vim/Selection.md"
     },
     {
       "basename": "2023-09-07",
