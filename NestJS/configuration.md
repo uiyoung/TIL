@@ -53,7 +53,6 @@ logger.log(`Application listening on port ${port}`);
 ```
 
 #### ConfigService 사용하기
-
 이제 ConfigService를 사용하도록 main.ts 를 변경한다.
 - @nestjs/config의 `ConfigService`를 사용한다
 - `configService.get('NODE_SERVER_PORT')를 사용하여 port를 읽어온다.
@@ -93,7 +92,6 @@ npm i js-yaml @types/js-yaml
 ```
 
 config 폴더를 만들고 다음과 같이 파일을 추가한다.
-테스트를 위해 개발/운영 포트를 각각 다르게 주었다.
 
 `src/config/production.yaml`
 ```yaml
@@ -106,6 +104,8 @@ server:
 server:
   port: 3002
 ```
+
+테스트를 위해 개발/운영 포트를 각각 다르게 주었다.
 
 config/config.ts 파일을 다음과 같이 만든다.
 
