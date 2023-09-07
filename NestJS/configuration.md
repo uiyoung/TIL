@@ -37,7 +37,7 @@ import { ConfigModule } from '@nestjs/config';
 ```
 > isGlobal option은 다른 모듈에서 config를 사용할 수 있도록 global로 설정한다.
 
-#### 환경 변수를 사용하는 방법 
+#### 환경 변수 정의
 프로젝트 루트 폴더에 .env를 만들고 다음과 같이 작성한다.
 ```
 NODE_ENV=development
@@ -52,11 +52,11 @@ await app.listen(port);
 logger.log(`Application listening on port ${port}`);
 ```
 
-#### ConfigService를 사용하는 방법
+#### ConfigService 사용하기
 
 이제 ConfigService를 사용하도록 main.ts 를 변경한다.
 - @nestjs/config의 `ConfigService`를 사용한다
-- `configService.get('NODE_SERVER_PORT')`를 사용하여 port를 읽어온다.
+- `configService.get('NODE_SERVER_PORT')를 사용하여 port를 읽어온다.
 
 ```ts
 import { NestFactory } from '@nestjs/core';
@@ -85,15 +85,16 @@ constructor(private configService: ConfigService);
 // …
 configService.get('…');
 ```
-#### Custom Configuration - 개발 / 운영 설정 파일 분리
+
+#### Custom Configuration - 개발 / 운영 설정 파일을 분리하는 방법
 yaml 파일 처리를 위해 js-yaml 패키지를 설치
 ```shell
 npm i js-yaml @types/js-yaml
 ```
 
 config 폴더를 만들고 다음과 같이 파일을 추가한다.
+테스트를 위해 개발/운영 포트를 각각 다르게 주었다.
 
-- 테스트를 위해 개발/운영 각각 포트를 다르게 주었다.
 `src/config/production.yaml`
 ```yaml
 server:
