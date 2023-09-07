@@ -15,7 +15,7 @@
               "state": {
                 "file": "tools/vim/surround.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",

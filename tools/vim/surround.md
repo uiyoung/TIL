@@ -3,11 +3,20 @@
 - 삭제(delete)(`ds`)
 - 바꾸기(change)(`cs`)
 
-| old text              | command  | new text                  |
-| --------------------- | -------- | ------------------------- |
-| "Hello* world!"       | ds"      | Hello world!              |
-| [123+4*56]/2          | `cs])`   | (123+456)/2               |
-| "Look ma, I'm *HTML!" | `cs"<q>` | <q>Look ma, I'm HTML!</q> |
-|                       |          |                           |
+e.g.
+
+| old text                | command   | new text                  |
+| ----------------------- | --------- | ------------------------- |
+| `"Hello *world!"`       | `ds"`     | `Hello world!              |
+| `[123+4*56]/2`          | `cs])`    | `(123+456)/2`             |
+| `"Look ma, I'm *HTML!"` | `cs"<q>`  | <q>Look ma, I'm HTML!</q> |
+| `if *x>3 {`             | `ysW(`    | `if ( x>3 ) {`            |
+| `my $str = *whee!;`     | `vllllS'` | `my $str = 'whee!';`      |
+
+
+
+
+
+
 ## 한 단어 감싸기
 I am happy
