@@ -38,41 +38,34 @@ import { ConfigModule } from '@nestjs/config';
 > isGlobal option은 다른 모듈에서 config를 사용할 수 있도록 global로 설정한다.
 
 #### 환경 변수 정의
-
-프로젝트 루트 폴더에 .env를 만들고 다음과 같이 작성을 합니다.
-
+프로젝트 루트 폴더에 .env를 만들고 다음과 같이 작성한다.
 ```
 NODE_ENV=development
 NODE_SERVER_PORT=3000
 ```
 
-main.ts 파일에서 다음과 같이 사용할 수 있습니다.
-
-```
+main.ts 파일에서 다음과 같이 사용할 수 있다.
+```ts
 const port = process.env.NODE_SERVER_PORT
-…
+// …
 await app.listen(port);
 logger.log(`Application listening on port ${port}`);
 ```
 
 #### 환경변수 테스트
-
-서버를 실행해서 port를 읽어오는지 확인합니다.
-
+서버를 실행해서 port를 읽어오는지 확인
 ```
 npm run start
 ```
-
 ![[attachments/e89566701ede7739a33ad10044010e39_MD5.png]]
 
 #### ConfigService 사용하기
 
-이제 ConfigService를 사용하도록 main.ts 를 변경합니다.
-
+이제 ConfigService를 사용하도록 main.ts 를 변경한다.
 - @nestjs/config의 ConfigService를 사용합니다.
-- configService.get('NODE_SERVER_PORT')를 사용하여 port를 읽어옵니다.
+- configService.get('NODE_SERVER_PORT')를 사용하여 port를 읽어온다.
 
-```
+```ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import * as cookieParser from 'cookie-parser';
@@ -88,54 +81,46 @@ async function bootstrap() {
 }
 bootstrap();
 ```
+서버를 실행해보면 이전과 동일하게 서버가 올라간다.
 
-서버를 실행해보면 이전과 동일하게 서버가 올라갑니다.
+ConfigService를 다른 곳에서 사용하려면 constructor로 추가하면 된다.
 
-ConfigService를 다른 곳에서 사용하시려면 construtor 추가하면 됩니다.
-
-```
+```ts
 import { ConfigService } from '@nestjs/config';
-…
+// …
 constructor(private configService: ConfigService);
-…
+// …
 configService.get('…');
 ```
 
 #### Custom Configuration - 개발 / 운영 설정 파일 분리
-
-yaml 파일 처리를 위해 js-yaml 패키지를 설치합니다.
-
-```
+yaml 파일 처리를 위해 js-yaml 패키지를 설치
+```shell
 npm i js-yaml @types/js-yaml
 ```
 
-config 폴더를 만들고 다음과 같이 파일을 추가합니다.
+config 폴더를 만들고 다음과 같이 파일을 추가한다.
 
-- 테스트를 위해 개발/운영 각각 포트를 다르게 주었습니다.
-
-- src/config/production.yaml
-
-```
+- 테스트를 위해 개발/운영 각각 포트를 다르게 주었다.
+`src/config/production.yaml`
+```yaml
 server:
   port: 3001
 ```
 
-- src/config/development.yaml
-
-```
+`src/config/development.yaml`
+```yaml
 server:
   port: 3002
 ```
 
-config/config.ts 파일을 다음과 같이 만듭니다.
+config/config.ts 파일을 다음과 같이 만든다.
 
 - 환경변수의 NODE_ENV가 'production'일 경우는 production.yaml을 읽고
-
 - 그외의 경우는 development.yaml을 읽게 합니다.
 
 - src/config/config.ts
-
-```
+```ts
 import { readFileSync } from 'fs';
 import * as yaml from 'js-yaml';
 import { join } from 'path';
