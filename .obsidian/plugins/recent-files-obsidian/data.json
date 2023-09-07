@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "surround",
+      "path": "tools/vim/surround.md"
+    },
+    {
       "basename": "_vim",
       "path": "tools/vim/_vim.md"
     },
