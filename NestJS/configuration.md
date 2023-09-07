@@ -104,13 +104,10 @@ server:
 server:
   port: 3002
 ```
-
 테스트를 위해 개발/운영 포트를 각각 다르게 주었다.
 
 config/config.ts 파일을 다음과 같이 만든다.
 
-- 환경변수의 NODE_ENV가 'production'일 경우는 production.yaml을 읽고
-- 그외의 경우는 development.yaml을 읽게 한다.
 `src/config/config.ts`
 ```ts
 import { readFileSync } from 'fs';
@@ -128,9 +125,9 @@ export default () => {
   ) as Record<string, any>;
 };
 ```
+환경변수의 NODE_ENV가 'production'일 경우는 production.yaml을 읽고 그외의 경우에는 development.yaml을 읽게 한다.
 
 AppModule에서 config.ts 정보를 가져온다.
-
 ```ts
 import config from './config/config';
 …
@@ -142,8 +139,7 @@ import config from './config/config';
     }),…
 ```
 
-main.ts에서 config를 이용해 포트를 읽어오도록 변경.
-
+main.ts에서 config를 이용해 포트를 읽어오도록 변경한다
 ```ts
 const configService = app.get(ConfigService);
 const port = configService.get<string>('server.port');
@@ -151,20 +147,19 @@ const port = configService.get<string>('server.port');
 
 yaml은 컴파일시에 dist 폴더로 copy가 되지 않으므로 파일을 찾을 수 없다.
 
-package.json에서 script를 이용해 yaml을 copy하기 위해 다음 패키지를 설치합니다.
-
+package.json에서 script를 이용해 yaml을 copy하기 위해 다음 패키지를 설치한다.
 ```shell
 npm i cpx
 ```
 
-package.json을 다음과 같이 파일 복사 스크립트를 추가합니다.
+package.json을 다음과 같이 파일 복사 스크립트를 추가한다.
 
 - scripts에 "copy-files"를 아래와 같이 추가합니다.
 	- `"copy-files": "cpx \"src/config/*.yaml\" dist/config/",`
 - start 및 build 스크립트에 "npm run copy-files" 를 추가합니다.
 
-```
-…
+```json
+// …
 "scripts": {
     "copy-files": "cpx \"src/config/*.yaml\" dist/config/",
     "prebuild": "rimraf dist",
@@ -174,21 +169,19 @@ package.json을 다음과 같이 파일 복사 스크립트를 추가합니다.
     "start:dev": "npm run copy-files && nest start --watch",
     "start:debug": "npm run copy-files && nest start --debug --watch",
     "start:prod": "npm run copy-files && node dist/main",
-…
+// ...
 ```
 
 프로젝트 실행
 
-```
+```shell
 npm run start:dev
 ```
 
-.env의 "NODE_ENV=development"일 경우에는 3002번 포트로 서버가 실행된다.
-
+.env의 `"NODE_ENV=development"`일 경우에는 3002번 포트로 서버가 실행된다.
 ![[attachments/de9d99200df0c903b8085f92ab860170_MD5.png]]
 
-.env의 "NODE_ENV=production"일 경우에는 3001번 포트로 서버가 실행된다.
-
+.env의 `"NODE_ENV=production"`일 경우에는 3001번 포트로 서버가 실행된다.
 ![[attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png]]
 
-이렇게 환경 설정파일을 분리해서 개발과 운영의 환경을 다르게 설정할 수 있.
+이렇게 환경 설정파일을 분리해서 개발과 운영의 환경을 다르게 설정할 수 있다.
