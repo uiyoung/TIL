@@ -90,11 +90,11 @@
       "enabled": false
     },
     "auto-correct-common-misspellings": {
-      "enabled": false,
+      "enabled": true,
       "ignore-words": ""
     },
     "blockquote-style": {
-      "enabled": false,
+      "enabled": true,
       "style": "space"
     },
     "convert-bullet-list-markers": {
@@ -108,12 +108,12 @@
       "enabled": false
     },
     "ordered-list-style": {
-      "enabled": false,
+      "enabled": true,
       "number-style": "ascending",
       "list-end-style": "."
     },
     "proper-ellipsis": {
-      "enabled": false
+      "enabled": true
     },
     "quote-style": {
       "enabled": false,
@@ -123,10 +123,10 @@
       "double-quote-style": "\"\""
     },
     "remove-consecutive-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "remove-empty-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "remove-hyphenated-line-breaks": {
       "enabled": false
