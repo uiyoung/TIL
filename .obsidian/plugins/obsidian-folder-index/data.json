@@ -10,9 +10,9 @@
   "autoPreviewMode": false,
   "sortIndexFilesAlphabetically": true,
   "sortHeadersAlphabetically": false,
-  "recursiveIndexFiles": false,
+  "recursiveIndexFiles": true,
   "renderFolderBold": true,
   "renderFolderItalic": false,
-  "useBulletPoints": false,
+  "useBulletPoints": true,
   "excludeFolders": []
 }
