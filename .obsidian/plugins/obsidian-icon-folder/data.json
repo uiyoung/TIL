@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiNestjs",
+      "FabJs",
       "SiReact",
       "RiAttachment2",
-      "IbCalendar",
-      "TiTool",
-      "SiVisualstudiocode"
+      "IbCalendar"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,5 +30,7 @@
   "attachments": {
     "iconName": "RiAttachment2",
     "inheritanceIcon": "RiAttachment2"
-  }
+  },
+  "JS": "FabJs",
+  "NestJS": "SiNestjs"
 }

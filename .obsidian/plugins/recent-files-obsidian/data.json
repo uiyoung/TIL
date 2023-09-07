@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "hii",
+      "path": "hii.md"
+    },
+    {
+      "basename": "test",
+      "path": "test.md"
+    },
+    {
+      "basename": "index",
+      "path": "NestJS/index.md"
+    },
+    {
+      "basename": "ho",
+      "path": "ho.md"
+    },
+    {
+      "basename": "configuration",
+      "path": "configuration.md"
+    },
+    {
       "basename": "2023-09-07",
       "path": "daily/2023-09-07.md"
     },
@@ -47,10 +67,6 @@
     {
       "basename": "2023-09-05",
       "path": "daily/2023-09-05.md"
-    },
-    {
-      "basename": "test",
-      "path": "test.md"
     },
     {
       "basename": "hello obsidian",
