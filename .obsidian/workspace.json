@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/vim/surround.md",
-                "mode": "source",
-                "source": true
+                "file": "NestJS/configuration.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vim/surround.md",
+                "file": "NestJS/configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vim/surround.md",
+                "file": "NestJS/configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vim/surround.md"
+                "file": "NestJS/configuration.md"
               }
             }
           },
@@ -176,12 +176,12 @@
   },
   "active": "34808f393d66f9cd",
   "lastOpenFiles": [
+    "tools/vim/surround.md",
     "tools/vim/_vim.md",
     "tools/vim/movement.md",
     "attachments/Pasted image 20230907161323.png",
     "attachments/Pasted image 20230907161207.png",
     "tools/vim/jump to definition.md",
-    "tools/vim/surround.md",
     "tools/vim/Selection.md",
     "NestJS/configuration.md",
     "NestJS/_NestJS.md",

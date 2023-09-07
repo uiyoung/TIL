@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "configuration",
+      "path": "NestJS/configuration.md"
+    },
+    {
       "basename": "surround",
       "path": "tools/vim/surround.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Selection",
       "path": "tools/vim/Selection.md"
-    },
-    {
-      "basename": "configuration",
-      "path": "NestJS/configuration.md"
     },
     {
       "basename": "_NestJS",
