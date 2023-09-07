@@ -6,7 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FabReact"
+      "RiAttachment2",
+      "IbCalendar",
+      "TiTool",
+      "SiVisualstudiocode",
+      "SiVim"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -18,5 +22,13 @@
     },
     "iconInTabsEnabled": false
   },
-  "React": "FabReact"
+  "React": "FabReact",
+  "tools/vim": "SiVim",
+  "tools/vscode": "SiVisualstudiocode",
+  "tools": "TiTool",
+  "daily": "IbCalendar",
+  "attachments": {
+    "iconName": "RiAttachment2",
+    "inheritanceIcon": "RiAttachment2"
+  }
 }
