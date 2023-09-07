@@ -189,5 +189,5 @@ npm run start:dev
 ---
 
 
-> [!Question] "start": "npm run copy-files && nest start", 이렇게 하면 dist폴더에 yaml 파일이 복사된후 start 를 하면서 dist 폴더가 삭제후 다시 생성됩니다 그럼 yaml 파일도 삭제가 됩니다 어떻게 해야 할까요?
->  찾아보니 nest-cli.json 파일에 "compilerOptions": { "deleteOutDir": true } 이것때문에 계속 빌드할때마다 dist 폴더가 삭제후 다시 생성되고있었습니다
+> [!Question] `"start": "npm run copy-files && nest start"` 이렇게 하면 dist폴더에 yaml 파일이 복사된후 start 를 하면서 dist 폴더가 삭제후 다시 생성됩니다 그럼 yaml 파일도 삭제가 됩니다 어떻게 해야 할까요?
+>  찾아보니 nest-cli.json 파일에 `"compilerOptions": { "deleteOutDir": true }` 이것때문에 계속 빌드할때마다 dist 폴더가 삭제후 다시 생성되고있었습니다
