@@ -135,7 +135,7 @@ export default () => {
 };
 ```
 
-AppModule에서 config.ts 정보를 가져옵니다.
+AppModule에서 config.ts 정보를 가져온다.
 
 ```ts
 import config from './config/config';
@@ -148,14 +148,14 @@ import config from './config/config';
     }),…
 ```
 
-main.ts에서 config를 이용해 포트를 읽어오도록 변경합니다.
+main.ts에서 config를 이용해 포트를 읽어오도록 변경.
 
 ```ts
 const configService = app.get(ConfigService);
 const port = configService.get<string>('server.port');
 ```
 
-yaml은 컴파일시에 dist 폴더로 copy가 되지 않으므로 파일을 찾을 수 없습니다.
+yaml은 컴파일시에 dist 폴더로 copy가 되지 않으므로 파일을 찾을 수 없다.
 
 package.json에서 script를 이용해 yaml을 copy하기 위해 다음 패키지를 설치합니다.
 
@@ -166,7 +166,7 @@ npm i cpx
 package.json을 다음과 같이 파일 복사 스크립트를 추가합니다.
 
 - scripts에 "copy-files"를 아래와 같이 추가합니다.
-- "copy-files": "cpx \"src/config/*.yaml\" dist/config/",
+	- `"copy-files": "cpx \"src/config/*.yaml\" dist/config/",`
 - start 및 build 스크립트에 "npm run copy-files" 를 추가합니다.
 
 ```
@@ -183,18 +183,18 @@ package.json을 다음과 같이 파일 복사 스크립트를 추가합니다.
 …
 ```
 
-프로젝트를 실행합니다.
+프로젝트 실행
 
 ```
 npm run start:dev
 ```
 
-.env의 "NODE_ENV=development"일 경우에는 3002번 포트로 서버가 실행됩니다.
+.env의 "NODE_ENV=development"일 경우에는 3002번 포트로 서버가 실행된다.
 
 ![[attachments/de9d99200df0c903b8085f92ab860170_MD5.png]]
 
-.env의 "NODE_ENV=production"일 경우에는 3001번 포트로 서버가 실행됩니다.
+.env의 "NODE_ENV=production"일 경우에는 3001번 포트로 서버가 실행된다.
 
 ![[attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png]]
 
-이렇게 환경 설정파일을 분리해서 개발과 운영의 환경을 다르게 설정할 수 있습니다.
+이렇게 환경 설정파일을 분리해서 개발과 운영의 환경을 다르게 설정할 수 있.
