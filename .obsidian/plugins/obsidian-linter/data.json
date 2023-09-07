@@ -214,13 +214,13 @@
       "enabled": false
     },
     "prevent-double-checklist-indicator-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "prevent-double-list-item-indicator-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "proper-ellipsis-on-paste": {
-      "enabled": false
+      "enabled": true
     },
     "remove-hyphens-on-paste": {
       "enabled": false
@@ -232,7 +232,7 @@
       "enabled": false
     },
     "remove-multiple-blank-lines-on-paste": {
-      "enabled": false
+      "enabled": true
     }
   },
   "lintOnSave": true,
