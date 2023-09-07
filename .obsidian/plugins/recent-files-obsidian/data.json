@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "configuration",
+      "path": "NestJS/configuration.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "configuration",
-      "path": "NestJS/configuration.md"
+      "basename": "_tools",
+      "path": "tools/_tools.md"
+    },
+    {
+      "basename": "_NestJS",
+      "path": "NestJS/_NestJS.md"
     },
     {
       "basename": "shortcuts, snippets",
@@ -27,14 +35,6 @@
     {
       "basename": "notistack",
       "path": "React/3rd-paraty library/notistack.md"
-    },
-    {
-      "basename": "_tools",
-      "path": "tools/_tools.md"
-    },
-    {
-      "basename": "_NestJS",
-      "path": "NestJS/_NestJS.md"
     },
     {
       "basename": "_daily",
