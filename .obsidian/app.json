@@ -9,7 +9,7 @@
   "tabSize": 2,
   "readableLineLength": true,
   "foldIndent": false,
-  "defaultViewMode": "preview",
-  "livePreview": false,
+  "defaultViewMode": "source",
+  "livePreview": true,
   "foldHeading": true
 }
