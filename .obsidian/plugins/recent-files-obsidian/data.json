@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "configuration",
+      "path": "NestJS/configuration.md"
+    },
+    {
+      "basename": "_React",
+      "path": "React/_React.md"
+    },
+    {
       "basename": "notistack",
       "path": "React/3rd-paraty library/notistack.md"
     },
