@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/configuration.md",
-                "mode": "source",
+                "file": "React/3rd-paraty library/notistack.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 223.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1732c68bcc83232",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "React/3rd-paraty library/notistack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "React/3rd-paraty library/notistack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/configuration.md"
+                "file": "React/3rd-paraty library/notistack.md"
               }
             }
           },
@@ -184,14 +185,15 @@
   },
   "active": "ab68e8e3516fee37",
   "lastOpenFiles": [
+    "React/vite로 React 앱 만들기.md",
+    "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
+    "NestJS/configuration.md",
     "NestJS/_NestJS.md",
     "React/3rd-paraty library/notistack.md",
-    "React/vite로 React 앱 만들기.md",
     "React/_React.md",
     "tools/vim/_vim.md",
     "JS/_JS.md",
     "conflict-files-obsidian-git.md",
-    "NestJS/configuration.md",
     "README.md",
     "tools/vim/jump to definition.md",
     "React/3rd-paraty library/_3rd-paraty library.md",
@@ -207,7 +209,6 @@
     "attachments/Pasted image 20230907183737.png",
     "attachments/Pasted image 20230907161323.png",
     "attachments/Pasted image 20230907161207.png",
-    "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "NestJS",
     "JS",
     "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
