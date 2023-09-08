@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
+                "file": "React/vite로 React 앱 만들기.md",
                 "mode": "preview",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
+                "file": "React/vite로 React 앱 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
+                "file": "React/vite로 React 앱 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md"
+                "file": "React/vite로 React 앱 만들기.md"
               }
             }
           },
@@ -185,12 +185,12 @@
   },
   "active": "ab68e8e3516fee37",
   "lastOpenFiles": [
+    "React/_React.md",
+    "React/3rd-paraty library/notistack.md",
     "React/vite로 React 앱 만들기.md",
     "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "NestJS/configuration.md",
     "NestJS/_NestJS.md",
-    "React/3rd-paraty library/notistack.md",
-    "React/_React.md",
     "tools/vim/_vim.md",
     "JS/_JS.md",
     "conflict-files-obsidian-git.md",
