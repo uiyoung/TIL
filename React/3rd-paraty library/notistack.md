@@ -67,7 +67,7 @@ closeSnackbar(key)
 ---
 _e.g._
 
-main.jsx
+`main.jsx`
 - Use `TI:"your title"` to add title
 - Use `HL:"numbers"` to add highlight, such as `HL:"1,2,3"`, `HL:"1-3"`, separate by `,`
 ```jsx TI:"main.jsx" HL:"1,3"
@@ -86,7 +86,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 ```
 
-/pages/CreateBooks.jsx
+`/pages/CreateBooks.jsx`
 ```jsx
 function CreateBooks() {
   const [title, setTitle] = useState('');

@@ -1,3 +1,6 @@
+---
+sticker: ""
+---
 #vim
 ## select inner tag
 `vit`
@@ -20,4 +23,4 @@ Supposing the cursor is in a `<td>` you'd need `vatatatat` to select the who
 `vabob`
 ![[Pasted image 20230905095352.png]]
 
-
+또는 `vab -> V`

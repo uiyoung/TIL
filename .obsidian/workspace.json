@@ -19,7 +19,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,6 +90,7 @@
               "state": {}
             }
           }
+        ]
         ],
         "currentTab": 4
       }
