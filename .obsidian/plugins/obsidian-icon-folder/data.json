@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiBrandVscode",
+      "SiVim",
+      "TiTool",
       "SiNestjs",
-      "FabJs",
-      "SiReact",
-      "RiAttachment2",
-      "IbCalendar"
+      "FabReact"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,15 +22,9 @@
     },
     "iconInTabsEnabled": false
   },
-  "React": "SiReact",
-  "tools/vim": "SiVim",
-  "tools/vscode": "SiVisualstudiocode",
+  "React": "FabReact",
+  "NestJS": "SiNestjs",
   "tools": "TiTool",
-  "daily": "IbCalendar",
-  "attachments": {
-    "iconName": "RiAttachment2",
-    "inheritanceIcon": "RiAttachment2"
-  },
-  "JS": "FabJs",
-  "NestJS": "SiNestjs"
+  "tools/vim": "SiVim",
+  "tools/vscode": "TiBrandVscode"
 }

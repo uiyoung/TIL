@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/_NestJS.md",
+                "file": "tools/vim/_vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/_NestJS.md",
+                "file": "tools/vim/_vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/_NestJS.md",
+                "file": "tools/vim/_vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/_NestJS.md"
+                "file": "tools/vim/_vim.md"
               }
             }
           },
@@ -184,15 +184,21 @@
   },
   "active": "6059354c4ae5cc8d",
   "lastOpenFiles": [
+    "tools/vim/selection.md",
+    "tools/vim/_vim.md",
+    "tools/vim/jump to definition.md",
+    "tools/vim/surround.md",
+    "tools/vim/movement.md",
+    "tools/_tools.md",
+    "React/3rd-paraty library/_3rd-paraty library.md",
+    "NestJS/_NestJS.md",
+    "JS/_JS.md",
     "React/_React.md",
+    "NestJS/NestJS.md",
     "NestJS/configuration.md",
     "conflict-files-obsidian-git.md",
     "React/3rd-paraty library/notistack.md",
     "tools/vscode/_vscode.md",
-    "tools/vim/surround.md",
-    "tools/vim/movement.md",
-    "tools/vim/_vim.md",
-    "tools/_tools.md",
     "attachments/e89566701ede7739a33ad10044010e39_MD5.png",
     "attachments/de9d99200df0c903b8085f92ab860170_MD5.png",
     "attachments/_attachments.md",
@@ -200,20 +206,15 @@
     "attachments/Pasted image 20230907161323.png",
     "attachments/Pasted image 20230907161207.png",
     "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
-    "React/3rd-paraty library/_3rd-paraty library.md",
-    "NestJS/_NestJS.md",
     "NestJS",
-    "JS/_JS.md",
     "JS",
     "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
-    "tools/vim/jump to definition.md",
     "daily/2023-09-06.md",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "tools/vscode/shortcuts, snippets.md",
     "React/3rd-paraty library",
     "React",
     "README.md",
-    "tools/vim/Selection.md",
     "daily",
     "attachments/Pasted image 20230905095336.png",
     "attachments/Pasted image 20230905095352.png",

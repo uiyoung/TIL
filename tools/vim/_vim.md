@@ -1,7 +1,7 @@
 
-[[jump to definition]]
-[[Selection]]
+[[selection]]
 
 [[surround]]
 
 [[movement]]
+[[jump to definition]]
