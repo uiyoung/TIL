@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "NestJS/_NestJS.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "NestJS/_NestJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "NestJS/_NestJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/configuration.md"
+                "file": "NestJS/_NestJS.md"
               }
             }
           },
@@ -185,6 +185,7 @@
   "active": "6059354c4ae5cc8d",
   "lastOpenFiles": [
     "React/_React.md",
+    "NestJS/configuration.md",
     "conflict-files-obsidian-git.md",
     "React/3rd-paraty library/notistack.md",
     "tools/vscode/_vscode.md",
@@ -201,7 +202,6 @@
     "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "React/3rd-paraty library/_3rd-paraty library.md",
     "NestJS/_NestJS.md",
-    "NestJS/configuration.md",
     "NestJS",
     "JS/_JS.md",
     "JS",

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "configuration",
-      "path": "NestJS/configuration.md"
+      "basename": "_NestJS",
+      "path": "NestJS/_NestJS.md"
     },
     {
       "basename": "_React",
       "path": "React/_React.md"
+    },
+    {
+      "basename": "configuration",
+      "path": "NestJS/configuration.md"
     },
     {
       "basename": "notistack",
