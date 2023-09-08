@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/vim/_vim.md",
+                "file": "React/_React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51651aa12e6d4e98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/vite로 React 앱 만들기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vim/_vim.md",
+                "file": "React/vite로 React 앱 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vim/_vim.md",
+                "file": "React/vite로 React 앱 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vim/_vim.md"
+                "file": "React/vite로 React 앱 만들기.md"
               }
             }
           },
@@ -182,26 +195,28 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false
     }
   },
-  "active": "6059354c4ae5cc8d",
+  "active": "51651aa12e6d4e98",
   "lastOpenFiles": [
-    "tools/vim/selection.md",
+    "React/3rd-paraty library/notistack.md",
+    "React/_React.md",
+    "NestJS/configuration.md",
+    "NestJS/_NestJS.md",
+    "README.md",
+    "React/vite로 React 앱 만들기.md",
     "tools/vim/_vim.md",
     "tools/vim/jump to definition.md",
+    "React/3rd-paraty library/_3rd-paraty library.md",
+    "JS/_JS.md",
+    "attachments/_attachments.md",
+    "tools/_tools.md",
+    "tools/vscode/_vscode.md",
+    "tools/vim/selection.md",
     "tools/vim/surround.md",
     "tools/vim/movement.md",
-    "tools/_tools.md",
-    "React/3rd-paraty library/_3rd-paraty library.md",
-    "NestJS/_NestJS.md",
-    "JS/_JS.md",
-    "React/_React.md",
     "NestJS/NestJS.md",
-    "NestJS/configuration.md",
     "conflict-files-obsidian-git.md",
-    "React/3rd-paraty library/notistack.md",
-    "tools/vscode/_vscode.md",
     "attachments/e89566701ede7739a33ad10044010e39_MD5.png",
     "attachments/de9d99200df0c903b8085f92ab860170_MD5.png",
-    "attachments/_attachments.md",
     "attachments/Pasted image 20230907183737.png",
     "attachments/Pasted image 20230907161323.png",
     "attachments/Pasted image 20230907161207.png",
@@ -214,7 +229,6 @@
     "tools/vscode/shortcuts, snippets.md",
     "React/3rd-paraty library",
     "React",
-    "README.md",
     "daily",
     "attachments/Pasted image 20230905095336.png",
     "attachments/Pasted image 20230905095352.png",

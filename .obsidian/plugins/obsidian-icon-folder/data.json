@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiAttachment2",
+      "SiJavascript",
+      "SiVisualstudiocode",
       "TiBrandVscode",
-      "SiVim",
-      "TiTool",
-      "SiNestjs",
-      "FabReact"
+      "SiVim"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -26,5 +26,7 @@
   "NestJS": "SiNestjs",
   "tools": "TiTool",
   "tools/vim": "SiVim",
-  "tools/vscode": "TiBrandVscode"
+  "tools/vscode": "SiVisualstudiocode",
+  "JS": "SiJavascript",
+  "attachments": "RiAttachment2"
 }
