@@ -7,4 +7,5 @@ attribute-mono
 cubano
 
 ### for paragraph
-sofia-pro
+- sofia-pro
+- Lato
