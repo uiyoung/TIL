@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/vite로 React 앱 만들기.md",
-                "mode": "preview",
+                "file": "tools/fonts.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -89,12 +89,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 223.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1732c68bcc83232",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/vite로 React 앱 만들기.md",
+                "file": "tools/fonts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/vite로 React 앱 만들기.md",
+                "file": "tools/fonts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/vite로 React 앱 만들기.md"
+                "file": "tools/fonts.md"
               }
             }
           },
@@ -185,9 +185,11 @@
   },
   "active": "ab68e8e3516fee37",
   "lastOpenFiles": [
+    "tools/_tools.md",
+    "tools/fonts.md",
+    "React/vite로 React 앱 만들기.md",
     "React/_React.md",
     "React/3rd-paraty library/notistack.md",
-    "React/vite로 React 앱 만들기.md",
     "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "NestJS/configuration.md",
     "NestJS/_NestJS.md",
@@ -198,7 +200,6 @@
     "tools/vim/jump to definition.md",
     "React/3rd-paraty library/_3rd-paraty library.md",
     "attachments/_attachments.md",
-    "tools/_tools.md",
     "tools/vscode/_vscode.md",
     "tools/vim/selection.md",
     "tools/vim/surround.md",
