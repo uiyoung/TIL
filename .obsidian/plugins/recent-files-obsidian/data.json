@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "configuration",
+      "path": "NestJS/configuration.md"
+    },
+    {
       "basename": "_vim",
       "path": "tools/vim/_vim.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "NestJS",
       "path": "NestJS/NestJS.md"
-    },
-    {
-      "basename": "configuration",
-      "path": "NestJS/configuration.md"
     },
     {
       "basename": "notistack",
