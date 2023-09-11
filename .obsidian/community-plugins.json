@@ -14,5 +14,7 @@
   "obsidian-icon-folder",
   "obsidian-tagfolder",
   "obsidian-linter",
-  "folder-notes"
+  "folder-notes",
+  "symbols-prettifier",
+  "vim-reading-view-navigation"
 ]
