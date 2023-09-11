@@ -104,7 +104,7 @@ server:
 server:
   port: 3002
 ```
-테스트를 위해 개발/운영 포트를 각각 다르게 주었다.
+테스트를 위해 개발/운영 포트를 각각 다르게 준다.
 
 config/config.ts 파일을 다음과 같이 만든다.
 
@@ -119,7 +119,7 @@ const YAML_CONFIG_DEV = 'development.yaml';
 
 export default () => {
   return yaml.load(
-      (process.env.NODE_ENV==='production')?
+      (process.env.NODE_ENV === 'production')?
         readFileSync(join(__dirname, YAML_CONFIG_PROD), 'utf8')
       : readFileSync(join(__dirname, YAML_CONFIG_DEV), 'utf8'),
   ) as Record<string, any>;

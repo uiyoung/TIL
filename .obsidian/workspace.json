@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "68064fb51687af20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/configuration.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -175,12 +188,15 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "27fbf4baa1818cb1",
+  "active": "68064fb51687af20",
   "lastOpenFiles": [
+    "NestJS/configuration.md",
+    "conflict-files-obsidian-git.md",
+    "tools/fonts.md",
+    "React/vite로 React 앱 만들기.md",
     "NestJS/NestJS.md",
     "attachments/Pasted image 20230907183737.png",
     "daily/2023-09-07.md",
-    "NestJS/configuration.md",
     "tools/_tools.md",
     "NestJS/_NestJS.md",
     "React/_React.md",
@@ -206,12 +222,9 @@
     "tools/vscode/_vscode.md",
     "Dashboard.md",
     "NestJS/_index.md",
-    "test.md",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
-    "hii.md",
     "test",
-    "NestJS/hou!.md",
     "NestJS",
     "attachments/Pasted image 20230905095352.png",
     "Context/spacesLastSync.log",

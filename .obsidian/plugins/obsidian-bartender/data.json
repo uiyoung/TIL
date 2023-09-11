@@ -4,15 +4,11 @@
   "fileExplorerOrder": {
     "/": [
       "attachments",
-      "daily",
       "JS",
       "NestJS",
-      "tools",
-      "README.md",
       "React",
-      "test.md",
-      "ho.md",
-      "hii.md"
+      "tools",
+      "README.md"
     ]
   },
   "actionBarOrder": {},
