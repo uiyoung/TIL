@@ -3,6 +3,7 @@
   "ribbonBarOrder": [],
   "fileExplorerOrder": {
     "/": [
+      "daily",
       "attachments",
       "JS",
       "NestJS",
