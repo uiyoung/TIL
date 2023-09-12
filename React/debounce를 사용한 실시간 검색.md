@@ -200,7 +200,30 @@ export default App;
 `lodash`의 `debounce` 함수를 사용하여 `delayedSearch` 함수를 생성하고, 입력 값이 변경될 때마다 이 함수가 호출됩니다. 이 함수는 입력 값이 변경되고 0.5초가 지난 후에 실제로 검색 요청을 보냅니다. 이렇게 함으로써 디바운스 효과를 쉽게 구현할 수 있습니다.
 
 ---
-_e.g._ 
+### _e.g_  custom hook으로 분리해서 debounce를 구현한 예제
+**useDebounce.jsx**
+```jsx
+import { useEffect, useState } from "react";
+
+function useDebounce(value, delay = 500) {
+  const [debounceVal, setDebounceVal] = useState(value);
+
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebounceVal(value);
+    }, delay);
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [value, delay]);
+
+  return debounceVal;
+}
+
+export default useDebounce;
+```
+
+**App.jsx**
 ```jsx
 import { useEffect, useState } from "react";
 import "./App.css";
