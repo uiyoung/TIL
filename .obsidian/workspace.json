@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
-                "mode": "preview",
+                "file": "NestJS/configuration.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
+                "file": "NestJS/configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md",
+                "file": "NestJS/configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/3rd-paraty library/notistack.md"
+                "file": "NestJS/configuration.md"
               }
             }
           },
@@ -173,12 +173,12 @@
   },
   "active": "39dfafd6540cd160",
   "lastOpenFiles": [
-    "React/vite로 React 앱 만들기.md",
-    "React/3rd-paraty library/notistack.md",
-    "React/debounce를 사용한 실시간 검색.md",
-    "React/_React.md",
-    "daily/2023-09-11.md",
     "NestJS/_NestJS.md",
+    "React/3rd-paraty library/notistack.md",
+    "React/_React.md",
+    "React/vite로 React 앱 만들기.md",
+    "React/debounce를 사용한 실시간 검색.md",
+    "daily/2023-09-11.md",
     "conflict-files-obsidian-git.md",
     "NestJS/configuration.md",
     "tools/fonts.md",

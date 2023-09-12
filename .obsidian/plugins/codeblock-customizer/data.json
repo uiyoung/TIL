@@ -216,12 +216,12 @@
       "header": {
         "boldText": false,
         "italicText": false,
-        "collapseIconPosition": "hide",
+        "collapseIconPosition": "right",
         "collapsedCodeText": "",
         "codeblockLangBoldText": true,
         "codeblockLangItalicText": true,
         "alwaysDisplayCodeblockLang": false,
-        "alwaysDisplayCodeblockIcon": true,
+        "alwaysDisplayCodeblockIcon": false,
         "displayCodeBlockLanguage": false,
         "displayCodeBlockIcon": false
       },

@@ -14,7 +14,7 @@ Nestjs 프로젝트 실행시에 미리 정의된 환경설정을 읽어와서 �
 - yaml 형식의 파일을 사용
 
 ## NestJS Config
-Nestjs에서는 설정 파일을 쉽게 관리할 수 있도록 @nestjs/config 패키지를 제공한다.
+Nestjs에서는 설정 파일을 쉽게 관리할 수 있도록 `@nestjs/config` 패키지를 제공한다.
 `@nestjs/config` 패키지는 dotenv를 포함하고 있으므로 따로 설치하지 않아도 된다.
 ```shell
 $ npm i @nestjs/config
@@ -22,8 +22,7 @@ $ npm i @nestjs/config
 
 다음으로  AppModule에서 config를 사용할 수 있도록 `ConfigModule`을 import 한다.
 
-`src/app.module.ts`
-```ts
+```ts file:src/app.module.ts
 import { ConfigModule } from '@nestjs/config';
 …
 

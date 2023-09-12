@@ -3,12 +3,12 @@ Notistack is a React library which makes it super easy to display notifications 
 
 **install**
 ```bash
-$ npm i notistack
+$ npm install notistack
 ```
 
 **Usage**
 1.  main.jsx 파일에서 `SnackbarProvider`를 import하고 `<App/>`을 감싼다
-	```jsx hl:2,7,9
+	```jsx file:main.jsx hl:2,7,9
 	//...
 	import { SnackbarProvider } from 'notistack';
 	
