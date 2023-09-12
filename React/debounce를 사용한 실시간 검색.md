@@ -35,7 +35,6 @@ function App() {
   return (
     <>
       <input type='search' value={searchInput} onChange={(e) => searchAnimals(e.target.value)} />
-      <hr />
       <ul>
         {animals.map((animal) => {
           return (
@@ -100,7 +99,6 @@ function App() {
   return (
     <>
       <input type='search' value={searchInput} onChange={(e) => setSearchInput(e.target.value)} />
-      <hr />
       <ul>
         {animals.map((animal) => {
           return (
@@ -180,7 +178,6 @@ function App() {
         value={searchInput}
         onChange={(e) => delayedSearch(e.target.value)} // 디바운스된 검색 함수 호출
       />
-      <hr />
       <ul>
         {animals.map((animal) => {
           return (
@@ -278,7 +275,6 @@ export default function App() {
         placeholder="Search Countries"
         onChange={(e) => setSearch(e.target.value)}
       />
-      <hr />
       {search ? <CountryList countries={countries} /> : ""}
     </div>
   );
