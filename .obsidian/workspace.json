@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/debounce를 사용한 검색.md",
+                "file": "React/debounce를 사용한 실시간 검색.md",
                 "mode": "preview",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/debounce를 사용한 검색.md",
+                "file": "React/debounce를 사용한 실시간 검색.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/debounce를 사용한 검색.md",
+                "file": "React/debounce를 사용한 실시간 검색.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/debounce를 사용한 검색.md"
+                "file": "React/debounce를 사용한 실시간 검색.md"
               }
             }
           },
@@ -191,7 +191,7 @@
   "active": "39dfafd6540cd160",
   "lastOpenFiles": [
     "React/_React.md",
-    "React/debounce를 사용한 검색.md",
+    "React/debounce를 사용한 실시간 검색.md",
     "daily/2023-09-11.md",
     "NestJS/_NestJS.md",
     "conflict-files-obsidian-git.md",
