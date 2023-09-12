@@ -8,7 +8,7 @@ $ npm i notistack
 
 **Usage**
 1.  main.jsx 파일에서 `SnackbarProvider`를 import하고 `<App/>`을 감싼다
-	```js
+	```jsx hl:2,7,9
 	//...
 	import { SnackbarProvider } from 'notistack';
 	
@@ -67,10 +67,7 @@ closeSnackbar(key)
 ---
 _e.g._
 
-`main.jsx`
-- Use `TI:"your title"` to add title
-- Use `HL:"numbers"` to add highlight, such as `HL:"1,2,3"`, `HL:"1-3"`, separate by `,`
-```jsx TI:"main.jsx" HL:"1,3"
+```jsx file:main.jsx hl:7,9
 // ...
 import { SnackbarProvider } from 'notistack';
 
@@ -86,8 +83,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 ```
 
-`/pages/CreateBooks.jsx`
-```jsx
+```jsx file:/pages/CreateBooks.jsx
 function CreateBooks() {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');

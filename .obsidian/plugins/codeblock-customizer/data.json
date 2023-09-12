@@ -221,8 +221,8 @@
         "codeblockLangBoldText": true,
         "codeblockLangItalicText": true,
         "alwaysDisplayCodeblockLang": false,
-        "alwaysDisplayCodeblockIcon": false,
-        "displayCodeBlockLanguage": true,
+        "alwaysDisplayCodeblockIcon": true,
+        "displayCodeBlockLanguage": false,
         "displayCodeBlockIcon": false
       },
       "gutter": {
@@ -230,7 +230,7 @@
         "enableHighlight": true
       },
       "inlineCode": {
-        "enableInlineCodeStyling": false
+        "enableInlineCodeStyling": true
       },
       "printing": {
         "enablePrintToPDFStyling": false,

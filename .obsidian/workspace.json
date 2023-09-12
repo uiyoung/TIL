@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/debounce를 사용한 실시간 검색.md",
-                "mode": "source",
+                "file": "React/3rd-paraty library/notistack.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/debounce를 사용한 실시간 검색.md",
+                "file": "React/3rd-paraty library/notistack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/debounce를 사용한 실시간 검색.md",
+                "file": "React/3rd-paraty library/notistack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/debounce를 사용한 실시간 검색.md"
+                "file": "React/3rd-paraty library/notistack.md"
               }
             }
           },
@@ -172,15 +171,15 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "b0fdfa5160ee30ae",
+  "active": "39dfafd6540cd160",
   "lastOpenFiles": [
+    "React/vite로 React 앱 만들기.md",
+    "React/3rd-paraty library/notistack.md",
     "React/debounce를 사용한 실시간 검색.md",
     "React/_React.md",
     "daily/2023-09-11.md",
     "NestJS/_NestJS.md",
     "conflict-files-obsidian-git.md",
-    "React/3rd-paraty library/notistack.md",
-    "React/vite로 React 앱 만들기.md",
     "NestJS/configuration.md",
     "tools/fonts.md",
     "NestJS/NestJS.md",
