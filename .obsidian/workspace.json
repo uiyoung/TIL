@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/_React.md",
+                "file": "daily/2023-09-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/_React.md",
+                "file": "daily/2023-09-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/_React.md",
+                "file": "daily/2023-09-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/_React.md"
+                "file": "daily/2023-09-12.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "27fbf4baa1818cb1",
   "lastOpenFiles": [
-    "React/debounce를 사용한 실시간 검색.md",
+    "daily/2023-09-12.md",
     "React/_React.md",
+    "React/debounce를 사용한 실시간 검색.md",
     "NestJS/_NestJS.md",
     "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "NestJS/configuration.md",
