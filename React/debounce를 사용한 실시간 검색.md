@@ -1,5 +1,5 @@
 **기존**
-```jsx
+```jsx file:App.jsx
 import { useState, useEffect } from 'react';
 import './App.css';
 
@@ -55,7 +55,7 @@ export default App;
 위의 코드는 인풋 요소의 `onChange` 핸들러가 매 입력마다 즉시 서버에 요청을 보내므로 네트워크 트래픽이 폭주할 수 있습니다. 입력이 완료된 후에 요청을 보내는 것이 더 효율적일 수 있습니다. 이를 위해 타이머를 사용하여 입력이 멈출 때까지 기다리고 요청을 보내도록 변경할 수 있습니다.
 
 **debounce 사용**
-```jsx
+```jsx file:App.jsx
 import { useState, useEffect } from 'react';
 import './App.css';
 
@@ -129,7 +129,7 @@ useEffect(() => {
 - `return () => clearTimeout(timer);` 부분: `useEffect`의 함수 내에서 반환한 함수는 컴포넌트가 언마운트되거나 `searchInput` 값이 변경되어 다시 렌더링될 때 실행된다. 이 부분은 컴포넌트가 언마운트되기 전에 이전에 설정한 타이머를 취소하는 역할을 합니다. `clearTimeout(timer)` 함수를 호출하여 설정한 타이머를 취소하고 메모리 누수를 방지합니다.
 
 ---
-lodash 라이브러리를 이용한 debounce 구현
+### lodash 라이브러리를 이용한 debounce 구현
 ```shell
 npm install lodash
 ```
@@ -198,8 +198,7 @@ export default App;
 
 ---
 ### _e.g_  custom hook으로 분리해서 debounce를 구현한 예제
-**useDebounce.jsx**
-```jsx
+```jsx file:useDebounce.jsx
 import { useEffect, useState } from "react";
 
 function useDebounce(value, delay = 500) {
@@ -220,8 +219,7 @@ function useDebounce(value, delay = 500) {
 export default useDebounce;
 ```
 
-**App.jsx**
-```jsx
+```jsx file:App.jsx
 import { useEffect, useState } from "react";
 import "./App.css";
 

@@ -155,7 +155,7 @@ package.json을 다음과 같이 파일 복사 스크립트를 추가한다.
 - scripts에 "copy-files"를 아래와 같이 추가
 	- `"copy-files": "cpx \"src/config/*.yaml\" dist/config/",`
 - start 및 build 스크립트에 `npm run copy-files` 를 추가
-	```json
+	```json file:package.json
 	// …
 	"scripts": {
 	    "copy-files": "cpx \"src/config/*.yaml\" dist/config/",

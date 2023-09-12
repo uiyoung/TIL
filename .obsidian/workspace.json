@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "React/_React.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "React/_React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "React/_React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/configuration.md"
+                "file": "React/_React.md"
               }
             }
           },
@@ -158,9 +158,9 @@
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:Open today's daily note": false,
+      "graph:Open graph view": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": true,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -170,12 +170,13 @@
   },
   "active": "27fbf4baa1818cb1",
   "lastOpenFiles": [
-    "NestJS/_NestJS.md",
+    "React/debounce를 사용한 실시간 검색.md",
     "React/_React.md",
+    "NestJS/_NestJS.md",
+    "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "NestJS/configuration.md",
     "React/3rd-paraty library/notistack.md",
     "React/vite로 React 앱 만들기.md",
-    "React/debounce를 사용한 실시간 검색.md",
     "daily/2023-09-11.md",
     "conflict-files-obsidian-git.md",
     "tools/fonts.md",
@@ -186,7 +187,6 @@
     "JS/_JS.md",
     "attachments/_attachments.md",
     "daily/_daily.md",
-    "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "attachments/de9d99200df0c903b8085f92ab860170_MD5.png",
     "attachments/e89566701ede7739a33ad10044010e39_MD5.png",
     "README.md",
@@ -201,7 +201,6 @@
     "attachments/Pasted image 20230907161207.png",
     "tools/vim/Selection.md",
     "tools/tools.md",
-    "tools/vscode/_vscode.md",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
     "test",
