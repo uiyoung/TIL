@@ -15,5 +15,6 @@
   "obsidian-linter",
   "folder-notes",
   "symbols-prettifier",
-  "vim-reading-view-navigation"
+  "vim-reading-view-navigation",
+  "codeblock-customizer"
 ]

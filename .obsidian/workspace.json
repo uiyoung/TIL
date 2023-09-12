@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "React/debounce를 사용한 실시간 검색.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -77,25 +77,9 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "8f8a66bb8d4c8494",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
-          {
-            "id": "ae1ad283673aa12d",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -188,10 +172,10 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "ae1ad283673aa12d",
+  "active": "b0fdfa5160ee30ae",
   "lastOpenFiles": [
-    "React/_React.md",
     "React/debounce를 사용한 실시간 검색.md",
+    "React/_React.md",
     "daily/2023-09-11.md",
     "NestJS/_NestJS.md",
     "conflict-files-obsidian-git.md",
