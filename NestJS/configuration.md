@@ -44,7 +44,7 @@ NODE_SERVER_PORT=3000
 ```
 
 main.ts 파일에서 다음과 같이 사용할 수 있다.
-```ts
+```ts file:main.ts
 const port = process.env.NODE_SERVER_PORT
 // …
 await app.listen(port);
@@ -54,7 +54,7 @@ logger.log(`Application listening on port ${port}`);
 #### ConfigService 사용하기
 이제 ConfigService를 사용하도록 main.ts 를 변경한다.
 - @nestjs/config의 `ConfigService`를 사용한다
-- `configService.get('NODE_SERVER_PORT')를 사용하여 port를 읽어온다.
+- `configService.get('NODE_SERVER_PORT')`를 사용하여 port를 읽어온다.
 
 ```ts
 import { NestFactory } from '@nestjs/core';
