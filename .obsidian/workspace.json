@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/_React.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39dfafd6540cd160",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "NestJS/configuration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,6 +136,16 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "41e56329ff2e3e75",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -171,16 +168,16 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "39dfafd6540cd160",
+  "active": "27fbf4baa1818cb1",
   "lastOpenFiles": [
     "NestJS/_NestJS.md",
-    "React/3rd-paraty library/notistack.md",
     "React/_React.md",
+    "NestJS/configuration.md",
+    "React/3rd-paraty library/notistack.md",
     "React/vite로 React 앱 만들기.md",
     "React/debounce를 사용한 실시간 검색.md",
     "daily/2023-09-11.md",
     "conflict-files-obsidian-git.md",
-    "NestJS/configuration.md",
     "tools/fonts.md",
     "NestJS/NestJS.md",
     "attachments/Pasted image 20230907183737.png",

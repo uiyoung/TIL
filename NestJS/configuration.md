@@ -53,10 +53,10 @@ logger.log(`Application listening on port ${port}`);
 
 #### ConfigService 사용하기
 이제 ConfigService를 사용하도록 main.ts 를 변경한다.
-- @nestjs/config의 `ConfigService`를 사용한다
+- `@nestjs/config`의 `ConfigService`를 사용한다
 - `configService.get('NODE_SERVER_PORT')`를 사용하여 port를 읽어온다.
 
-```ts
+```ts file:main.ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import * as cookieParser from 'cookie-parser';
@@ -92,14 +92,12 @@ npm i js-yaml @types/js-yaml
 
 config 폴더를 만들고 다음과 같이 파일을 추가한다.
 
-`src/config/production.yaml`
-```yaml
+```yaml file:src/config/production.yaml
 server:
   port: 3001
 ```
 
-`src/config/development.yaml`
-```yaml
+```yaml file:src/config/development.yaml
 server:
   port: 3002
 ```
@@ -107,8 +105,7 @@ server:
 
 config/config.ts 파일을 다음과 같이 만든다.
 
-`src/config/config.ts`
-```ts
+```ts file:src/config/config.ts
 import { readFileSync } from 'fs';
 import * as yaml from 'js-yaml';
 import { join } from 'path';
