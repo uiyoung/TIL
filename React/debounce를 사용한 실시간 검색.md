@@ -198,3 +198,67 @@ function App() {
 export default App;
 ```
 `lodash`의 `debounce` 함수를 사용하여 `delayedSearch` 함수를 생성하고, 입력 값이 변경될 때마다 이 함수가 호출됩니다. 이 함수는 입력 값이 변경되고 0.5초가 지난 후에 실제로 검색 요청을 보냅니다. 이렇게 함으로써 디바운스 효과를 쉽게 구현할 수 있습니다.
+
+---
+_e.g._ 
+```jsx
+import { useEffect, useState } from "react";
+import "./App.css";
+
+import useDebounce from "./useDebounce";
+
+function CountryList({ countries }) {
+  if (!countries) return;
+  return countries.map((country) => {
+    return (
+      <div key={`${country.area}`}>
+        <span>{country.name.official}</span>{" "}
+        <img
+          style={{ width: "120px", height: "80px" }}
+          src={country.flags.png}
+          alt={country.name.common}
+        />
+      </div>
+    );
+  });
+}
+
+export default function App() {
+  const [search, setSearch] = useState("");
+  const [countries, setCountries] = useState(null);
+
+  const debounceValue = useDebounce(search);
+
+  useEffect(() => {
+    const getCountries = async () => {
+      return await fetch(
+        `https://restcountries.com/v3.1/name/${debounceValue}`
+      )
+        .then((res) => {
+          if (!res.ok) {
+            return new Promise.reject("no country found");
+          }
+          return res.json();
+        })
+        .then((list) => {
+          setCountries(list);
+        })
+        .catch((err) => console.error(err));
+    };
+    if (debounceValue) getCountries();
+  }, [debounceValue]);
+
+  return (
+    <div className="App">
+      <input
+        type="search"
+        placeholder="Search Countries"
+        onChange={(e) => setSearch(e.target.value)}
+      />
+      <hr />
+      {search ? <CountryList countries={countries} /> : ""}
+    </div>
+  );
+}
+
+```
