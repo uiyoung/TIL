@@ -4,37 +4,38 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const [input, setInput] = useState('');
+  const [searchInput, setSearchInput] = useState('');
   const [animals, setAnimals] = useState([]);
 
   useEffect(() => {
     const lastQuery = localStorage.getItem('lastQuery');
-    setInput(lastQuery);
+    if (lastQuery) {
+      searchAnimals(lastQuery);
+    } else {
+      searchAnimals('');
+    }
   }, []);
 
-  useEffect(() => {
-    getAnimals(input);
-    localStorage.setItem('lastQuery', input);
-  }, [input]);
+  async function searchAnimals(value) {
+    setSearchInput(value);
 
-  async function getAnimals(search) {
     try {
-      const response = await fetch('http://localhost:5000?' + new URLSearchParams({ q: search }));
+      const response = await fetch('http://localhost:5000?' + new URLSearchParams({ q: value }));
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
       const data = await response.json();
       setAnimals(data);
+      localStorage.setItem('lastQuery', value);
     } catch (error) {
       console.error(error);
     }
   }
 
-  function handleOnChange(value) {
-    setInput(value);
-  }
-
   return (
-    <main>
-      <h1>Animal Farm</h1>
-      <input type='text' value={input} placeholder='Search' onChange={(e) => handleOnChange(e.target.value)} />
+    <>
+      <input type='search' value={searchInput} onChange={(e) => searchAnimals(e.target.value)} />
+      <hr />
       <ul>
         {animals.map((animal) => {
           return (
@@ -43,10 +44,9 @@ function App() {
             </li>
           );
         })}
-
-        {animals.length === 0 && 'No animals found'}
+        {animals.length <= 0 && 'No animals found'}
       </ul>
-    </main>
+    </>
   );
 }
 
