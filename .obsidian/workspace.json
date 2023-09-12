@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-09-12.md",
+                "file": "Next.js/_Next.js.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebb70503d8891cbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next.js/_Next.js.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-09-12.md",
+                "file": "Next.js/_Next.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-09-12.md",
+                "file": "Next.js/_Next.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-09-12.md"
+                "file": "Next.js/_Next.js.md"
               }
             }
           },
@@ -168,12 +181,15 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "27fbf4baa1818cb1",
+  "active": "ebb70503d8891cbe",
   "lastOpenFiles": [
-    "daily/2023-09-12.md",
     "React/_React.md",
-    "React/debounce를 사용한 실시간 검색.md",
     "NestJS/_NestJS.md",
+    "Next.js/_Next.js.md",
+    "Next.js/Next.js.md",
+    "daily/2023-09-12.md",
+    "Next.js",
+    "React/debounce를 사용한 실시간 검색.md",
     "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "NestJS/configuration.md",
     "React/3rd-paraty library/notistack.md",
@@ -200,8 +216,6 @@
     "tools/vim/movement.md",
     "attachments/Pasted image 20230907161323.png",
     "attachments/Pasted image 20230907161207.png",
-    "tools/vim/Selection.md",
-    "tools/tools.md",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
     "attachments/9ac21ae2979270d8f7c683c71f36ee8c_MD5.png",
     "test",
@@ -214,7 +228,6 @@
     "React",
     "NestJS",
     "JS",
-    "NestJS",
-    "daily"
+    "NestJS"
   ]
 }
