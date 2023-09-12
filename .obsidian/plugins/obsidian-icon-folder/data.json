@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbCalendar",
+      "SiNextdotjs",
       "RiAttachment2",
       "SiJavascript",
-      "SiVisualstudiocode",
-      "TiBrandVscode",
-      "SiVim"
+      "SiVisualstudiocode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -28,5 +28,7 @@
   "tools/vim": "SiVim",
   "tools/vscode": "SiVisualstudiocode",
   "JS": "SiJavascript",
-  "attachments": "RiAttachment2"
+  "attachments": "RiAttachment2",
+  "Next.js": "SiNextdotjs",
+  "daily": "IbCalendar"
 }
