@@ -53,8 +53,9 @@ function App() {
 export default App;
 ```
 
+위의 코드는 인풋 요소의 `onChange` 핸들러가 매 입력마다 즉시 서버에 요청을 보내므로 네트워크 트래픽이 폭주할 수 있습니다. 입력이 완료된 후에 요청을 보내는 것이 더 효율적일 수 있습니다. 이를 위해 타이머를 사용하여 입력이 멈출 때까지 기다리고 요청을 보내도록 변경할 수 있습니다.
 
-debounce 추가
+debounce 사용
 ```jsx
 import { useState, useEffect } from 'react';
 import './App.css';
