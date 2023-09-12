@@ -61,51 +61,46 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const [input, setInput] = useState('');
+  const [searchInput, setSearchInput] = useState('');
   const [animals, setAnimals] = useState([]);
 
   useEffect(() => {
-    // localStorage에서 검색어를 가져와 초기화합니다.
     const lastQuery = localStorage.getItem('lastQuery');
-    if (lastQuery !== null) {
-      setInput(lastQuery);
+    if (lastQuery) {
+      searchAnimals(lastQuery);
+    } else {
+      searchAnimals('');
     }
   }, []);
 
   useEffect(() => {
-    // 입력값이 변경될 때마다 debounce를 적용하여 검색합니다.
-    const debounceTimer = setTimeout(() => {
-      search(input);
-      localStorage.setItem('lastQuery', input);
+    const timer = setTimeout(() => {
+      searchAnimals(searchInput);
     }, 500);
 
-    return () => clearTimeout(debounceTimer);
-  }, [input]);
+    return () => clearTimeout(timer);
+  }, [searchInput]);
 
-  async function search(query) {
+  async function searchAnimals(value) {
+    setSearchInput(value);
+
     try {
-      const response = await fetch('http://localhost:5000?' + new URLSearchParams({ q: query }));
+      const response = await fetch('http://localhost:5000?' + new URLSearchParams({ q: value }));
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
       const data = await response.json();
       setAnimals(data);
+      localStorage.setItem('lastQuery', value);
     } catch (error) {
       console.error(error);
     }
   }
 
-  function handleInputChange(value) {
-    // 입력값을 업데이트하고 debounce를 위해 검색 함수를 호출합니다.
-    setInput(value);
-  }
-
   return (
-    <main>
-      <h1>Animal Farm</h1>
-      <input
-        type='text'
-        value={input}
-        placeholder='Search'
-        onChange={(e) => handleInputChange(e.target.value)}
-      />
+    <>
+      <input type='search' value={searchInput} onChange={(e) => setSearchInput(e.target.value)} />
+      <hr />
       <ul>
         {animals.map((animal) => {
           return (
@@ -114,12 +109,22 @@ function App() {
             </li>
           );
         })}
-
-        {animals.length === 0 && 'No animals found'}
+        {animals.length <= 0 && 'No animals found'}
       </ul>
-    </main>
+    </>
   );
 }
 
 export default App;
 ```
+
+```jsx
+useEffect(() => {
+	const timer = setTimeout(() => {
+		searchAnimals(searchInput);
+	}, 500);
+
+	return () => clearTimeout(timer);
+}, [searchInput]);
+```
+`searchInput` 상태값이 변경될때마다 0.5초 후에 `searchAnimals()`를 호출한다
