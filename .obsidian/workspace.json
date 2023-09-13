@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "21b9513a5e41ead8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.12"
+              }
+            }
+          },
+          {
             "id": "314668d0768a7daf",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,7 +203,7 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "ebb70503d8891cbe",
+  "active": "21b9513a5e41ead8",
   "lastOpenFiles": [
     "React/debounce를 사용한 실시간 검색.md",
     "React/_React.md",
