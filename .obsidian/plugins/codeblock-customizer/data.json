@@ -226,8 +226,8 @@
         "displayCodeBlockIcon": false
       },
       "gutter": {
-        "highlightActiveLineNr": true,
-        "enableHighlight": true
+        "highlightActiveLineNr": false,
+        "enableHighlight": false
       },
       "inlineCode": {
         "enableInlineCodeStyling": true
