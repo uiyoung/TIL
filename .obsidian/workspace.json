@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "314668d0768a7daf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/debounce를 사용한 실시간 검색.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -183,14 +195,14 @@
   },
   "active": "ebb70503d8891cbe",
   "lastOpenFiles": [
+    "React/debounce를 사용한 실시간 검색.md",
+    "React/_React.md",
+    "NestJS/_NestJS.md",
     "Next.js/_Next.js.md",
     "Next.js/Create Project.md",
     "daily/2023-09-12.md",
-    "React/_React.md",
-    "NestJS/_NestJS.md",
     "Next.js/Next.js.md",
     "Next.js",
-    "React/debounce를 사용한 실시간 검색.md",
     "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
     "NestJS/configuration.md",
     "React/3rd-paraty library/notistack.md",
