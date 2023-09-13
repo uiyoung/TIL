@@ -35,9 +35,23 @@
             "id": "21b9513a5e41ead8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.12"
+                "file": "JS/_JS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38cee3a885a9458b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next.js/_Next.js.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -54,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/_React.md",
+                "file": "Next.js/_Next.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/_React.md",
+                "file": "Next.js/_Next.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/_React.md"
+                "file": "Next.js/_Next.js.md"
               }
             }
           },
@@ -203,12 +217,13 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "21b9513a5e41ead8",
+  "active": "38cee3a885a9458b",
   "lastOpenFiles": [
+    "JS/_JS.md",
+    "Next.js/_Next.js.md",
     "React/debounce를 사용한 실시간 검색.md",
     "React/_React.md",
     "NestJS/_NestJS.md",
-    "Next.js/_Next.js.md",
     "Next.js/Create Project.md",
     "daily/2023-09-12.md",
     "Next.js/Next.js.md",
@@ -224,7 +239,6 @@
     "attachments/Pasted image 20230907183737.png",
     "daily/2023-09-07.md",
     "tools/_tools.md",
-    "JS/_JS.md",
     "attachments/_attachments.md",
     "daily/_daily.md",
     "attachments/de9d99200df0c903b8085f92ab860170_MD5.png",
