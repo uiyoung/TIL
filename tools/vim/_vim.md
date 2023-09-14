@@ -3,5 +3,5 @@
 
 [[surround]]
 
-[[movement]]
+[[navigating]]
 [[jump to definition]]
