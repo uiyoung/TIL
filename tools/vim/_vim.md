@@ -1,7 +1,9 @@
 
-[[selection]]
+- [[selection]]
 
-[[surround]]
+- [[navigating]] 
+- [[jump to definition]]
 
-[[navigating]]
-[[jump to definition]]
+- [[surround]]
+
+

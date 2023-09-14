@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "07b57480e27398a4",
+        "id": "e56ce9909bf08ce8",
         "type": "tabs",
         "children": [
           {
-            "id": "27fbf4baa1818cb1",
+            "id": "0a3a8101eb45115d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ebb70503d8891cbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/_React.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eaa165a1aac7165a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/vim/navigating.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "314668d0768a7daf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/debounce를 사용한 실시간 검색.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vim/navigating.md",
+                "file": "Next.js/_Next.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vim/navigating.md",
+                "file": "Next.js/_Next.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vim/navigating.md"
+                "file": "Next.js/_Next.js.md"
               }
             }
           },
@@ -205,16 +168,18 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "eaa165a1aac7165a",
+  "active": "0a3a8101eb45115d",
   "lastOpenFiles": [
-    "React/_React.md",
-    "tools/vim/navigating.md",
+    "tools/fonts.md",
     "tools/vim/_vim.md",
+    "React/debounce를 사용한 실시간 검색.md",
+    "Next.js/_Next.js.md",
+    "React/_React.md",
+    "tools/vim/jump to definition.md",
+    "tools/vim/navigating.md",
     "React/vite로 React 앱 만들기.md",
     "NestJS/configuration.md",
     "NestJS/NestJS.md",
-    "React/debounce를 사용한 실시간 검색.md",
-    "Next.js/_Next.js.md",
     "NestJS/_NestJS.md",
     "Next.js/Create Project.md",
     "JS/_JS.md",
@@ -225,7 +190,6 @@
     "React/3rd-paraty library/notistack.md",
     "daily/2023-09-11.md",
     "conflict-files-obsidian-git.md",
-    "tools/fonts.md",
     "attachments/Pasted image 20230907183737.png",
     "daily/2023-09-07.md",
     "tools/_tools.md",
@@ -235,7 +199,6 @@
     "attachments/e89566701ede7739a33ad10044010e39_MD5.png",
     "README.md",
     "tools/vscode/shortcuts, snippets.md",
-    "tools/vim/jump to definition.md",
     "React/3rd-paraty library/_3rd-paraty library.md",
     "test/_test.md",
     "attachments/Pasted image 20230907161323.png",
