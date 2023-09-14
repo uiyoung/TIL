@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/_Next.js.md",
+                "file": "tools/vim/surround.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/_Next.js.md",
+                "file": "tools/vim/surround.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/_Next.js.md",
+                "file": "tools/vim/surround.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/_Next.js.md"
+                "file": "tools/vim/surround.md"
               }
             }
           },
@@ -170,10 +170,11 @@
   },
   "active": "0a3a8101eb45115d",
   "lastOpenFiles": [
-    "tools/fonts.md",
     "tools/vim/_vim.md",
-    "React/debounce를 사용한 실시간 검색.md",
+    "tools/vim/Selection.md",
     "Next.js/_Next.js.md",
+    "tools/fonts.md",
+    "React/debounce를 사용한 실시간 검색.md",
     "React/_React.md",
     "tools/vim/jump to definition.md",
     "tools/vim/navigating.md",
@@ -200,7 +201,6 @@
     "README.md",
     "tools/vscode/shortcuts, snippets.md",
     "React/3rd-paraty library/_3rd-paraty library.md",
-    "test/_test.md",
     "attachments/Pasted image 20230907161323.png",
     "attachments/Pasted image 20230907161207.png",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",

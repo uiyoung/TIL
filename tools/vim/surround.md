@@ -54,8 +54,7 @@ I am *very very* happy.
 > **ys2aw***
 > (`ys`: 감싸기 추가; `2`: 감쌀 단어의 숫자; `aw`: 단어 주위; `*`: *로 깜싼다)
 
-## 다중 단어 태그로 감싸기
-
+#### 다중 단어 태그로 감싸기
 ```
 Hello World! How are you?
 <h1>Hello World</h1>! How are you?
