@@ -31,7 +31,8 @@ I am happy; she is sad.
 ```
 > **yss)**  
 > (`ys`: 감싸기 추가; `s`: 한줄 선택; `)` 한 줄을 괄호로 감싼다 )
-> **Note**: 만약 `yss(`로 입력을 하게 되면 괄호 사이에 공간이 추가 된다. `( I am happy; she is sad. )`
+> **Note**: 만약 `yss(`로 입력을 하게 되면 괄호 사이에 공간이 추가 된다. 
+> `( I am happy; she is sad. )`
 
 #### 태그로 단락 또는 한줄 감싸기
 ```
