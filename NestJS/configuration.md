@@ -1,4 +1,6 @@
-https://docs.nestjs.com/techniques/configuration
+---
+url: https://docs.nestjs.com/techniques/configuration
+---
 
 Nestjs 프로젝트 실행시에 미리 정의된 환경설정을 읽어와서 실행한다.
 이때 <mark style="background: #FFB8EBA6;">환경변수</mark>를 통해서 가져오는 방법과 <mark style="background: #ABF7F7A6;">설정파일</mark>을 통해 가져오는 방법이 있다.

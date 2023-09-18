@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a05d9d9f3aa989e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NestJS/configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/vim/surround.md",
+                "file": "NestJS/configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/vim/surround.md",
+                "file": "NestJS/configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/vim/surround.md"
+                "file": "NestJS/configuration.md"
               }
             }
           },
@@ -168,8 +181,10 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "0a3a8101eb45115d",
+  "active": "a05d9d9f3aa989e6",
   "lastOpenFiles": [
+    "tools/vim/surround.md",
+    "NestJS/configuration.md",
     "tools/vim/_vim.md",
     "tools/vim/Selection.md",
     "Next.js/_Next.js.md",
@@ -179,7 +194,6 @@
     "tools/vim/jump to definition.md",
     "tools/vim/navigating.md",
     "React/vite로 React 앱 만들기.md",
-    "NestJS/configuration.md",
     "NestJS/NestJS.md",
     "NestJS/_NestJS.md",
     "Next.js/Create Project.md",
@@ -200,7 +214,6 @@
     "attachments/e89566701ede7739a33ad10044010e39_MD5.png",
     "README.md",
     "tools/vscode/shortcuts, snippets.md",
-    "React/3rd-paraty library/_3rd-paraty library.md",
     "attachments/Pasted image 20230907161323.png",
     "attachments/Pasted image 20230907161207.png",
     "attachments/462e150a07e919fc0defdf40398c1a26_MD5.png",
