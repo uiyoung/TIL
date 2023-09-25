@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-09-21.md",
+                "file": "React/_React.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-09-21.md",
+                "file": "React/_React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-09-21.md",
+                "file": "React/_React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-09-21.md"
+                "file": "React/_React.md"
               }
             }
           },
@@ -183,8 +183,9 @@
   },
   "active": "a05d9d9f3aa989e6",
   "lastOpenFiles": [
-    "NestJS/configuration.md",
+    "React/3rd-paraty library/notistack.md",
     "daily/2023-09-21.md",
+    "NestJS/configuration.md",
     "tools/vim/surround.md",
     "tools/vim/_vim.md",
     "tools/vim/Selection.md",
@@ -203,7 +204,6 @@
     "Next.js/Next.js.md",
     "Next.js",
     "attachments/7f776ea12d459c0ef26f5a74fd3048dc_MD5.png",
-    "React/3rd-paraty library/notistack.md",
     "daily/2023-09-11.md",
     "conflict-files-obsidian-git.md",
     "attachments/Pasted image 20230907183737.png",
