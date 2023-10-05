@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/_React.md",
+                "file": "React/debounce를 사용한 실시간 검색.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/_React.md",
+                "file": "React/debounce를 사용한 실시간 검색.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/_React.md",
+                "file": "React/debounce를 사용한 실시간 검색.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/_React.md"
+                "file": "React/debounce를 사용한 실시간 검색.md"
               }
             }
           },
@@ -183,6 +183,7 @@
   },
   "active": "a05d9d9f3aa989e6",
   "lastOpenFiles": [
+    "React/_React.md",
     "React/3rd-paraty library/notistack.md",
     "daily/2023-09-21.md",
     "NestJS/configuration.md",
@@ -192,7 +193,6 @@
     "Next.js/_Next.js.md",
     "tools/fonts.md",
     "React/debounce를 사용한 실시간 검색.md",
-    "React/_React.md",
     "tools/vim/jump to definition.md",
     "tools/vim/navigating.md",
     "React/vite로 React 앱 만들기.md",
