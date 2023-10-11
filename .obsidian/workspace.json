@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4fb2631fb8f285bc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,7 +191,7 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "a05d9d9f3aa989e6",
+  "active": "4fb2631fb8f285bc",
   "lastOpenFiles": [
     "React/_React.md",
     "React/3rd-paraty library/notistack.md",
