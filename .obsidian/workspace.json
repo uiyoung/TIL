@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "tools/vscode/shortcuts, snippets.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "tools/vscode/shortcuts, snippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NestJS/configuration.md",
+                "file": "tools/vscode/shortcuts, snippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NestJS/configuration.md"
+                "file": "tools/vscode/shortcuts, snippets.md"
               }
             }
           },
@@ -195,8 +195,13 @@
   },
   "active": "4fb2631fb8f285bc",
   "lastOpenFiles": [
-    "NestJS/_NestJS.md",
+    "tools/vim/surround.md",
+    "tools/vim/Selection.md",
+    "tools/vim/navigating.md",
+    "tools/vim/jump to definition.md",
     "tools/vim/_vim.md",
+    "NestJS/configuration.md",
+    "NestJS/_NestJS.md",
     "tools/fonts.md",
     "Next.js/Create Project.md",
     "Next.js/_Next.js.md",
@@ -205,11 +210,6 @@
     "React/3rd-paraty library/notistack.md",
     "React/_React.md",
     "daily/2023-09-21.md",
-    "NestJS/configuration.md",
-    "tools/vim/surround.md",
-    "tools/vim/Selection.md",
-    "tools/vim/jump to definition.md",
-    "tools/vim/navigating.md",
     "NestJS/NestJS.md",
     "JS/_JS.md",
     "daily/2023-09-12.md",
